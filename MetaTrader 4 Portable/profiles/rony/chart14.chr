@@ -1,8 +1,8 @@
 <chart>
-id=134148461594340779
-symbol=NZDUSD-OTCq
+id=134148464891891263
+symbol=USDINR-OTCq
 period=1
-leftpos=549
+leftpos=574
 offline=1
 digits=8
 scale=16
@@ -20,10 +20,10 @@ days=0
 descriptions=0
 shift_size=25
 fixed_pos=0
-window_left=130
-window_top=130
-window_right=1314
-window_bottom=528
+window_left=104
+window_top=104
+window_right=956
+window_bottom=502
 window_type=1
 background_color=5197615
 foreground_color=16777215

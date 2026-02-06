@@ -1,8 +1,8 @@
 <chart>
-id=134148464813340184
-symbol=USDJPY-OTCq
+id=134148465925783556
+symbol=EURUSD-OTCq
 period=1
-leftpos=565
+leftpos=574
 offline=1
 digits=8
 scale=16
@@ -20,10 +20,10 @@ days=0
 descriptions=0
 shift_size=25
 fixed_pos=0
-window_left=78
-window_top=78
-window_right=930
-window_bottom=476
+window_left=52
+window_top=52
+window_right=904
+window_bottom=450
 window_type=1
 background_color=5197615
 foreground_color=16777215

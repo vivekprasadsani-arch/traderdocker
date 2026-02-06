@@ -1,8 +1,9 @@
 <chart>
+id=134148606543529122
 symbol=USDCHF
 period=30
-leftpos=531
-digits=4
+leftpos=2026
+digits=5
 scale=8
 graph=1
 fore=1
@@ -12,6 +13,7 @@ scroll=1
 shift=1
 ohlc=1
 one_click=1
+one_click_btn=1
 askline=0
 days=1
 descriptions=0
@@ -36,6 +38,7 @@ stops_color=255
 
 <window>
 height=175
+fixed_height=0
 <indicator>
 name=main
 </indicator>
@@ -65,6 +68,7 @@ show_data=1
 
 <window>
 height=46
+fixed_height=0
 <indicator>
 name=Awesome Oscillator
 color=32768
@@ -80,6 +84,7 @@ show_data=1
 
 <window>
 height=43
+fixed_height=0
 <indicator>
 name=Accelerator Oscillator
 color=32768
@@ -95,6 +100,7 @@ show_data=1
 
 <window>
 height=50
+fixed_height=0
 <indicator>
 name=Gator Oscillator
 period=13

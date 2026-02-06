@@ -1,8 +1,9 @@
 <chart>
+id=134148606544454887
 symbol=EURUSD
 period=30
-leftpos=531
-digits=4
+leftpos=2026
+digits=5
 scale=8
 graph=1
 fore=1
@@ -12,6 +13,7 @@ scroll=1
 shift=1
 ohlc=1
 one_click=1
+one_click_btn=1
 askline=0
 days=1
 descriptions=0
@@ -36,6 +38,7 @@ stops_color=255
 
 <window>
 height=151
+fixed_height=0
 <indicator>
 name=main
 </indicator>
@@ -79,6 +82,7 @@ show_data=1
 
 <window>
 height=45
+fixed_height=0
 <indicator>
 name=MACD
 fast_ema=8
@@ -94,7 +98,7 @@ signal_weight=1
 levels_color=12632256
 levels_style=2
 levels_weight=1
-level_0=0.0000
+level_0=0.00000000
 period_flags=0
 show_data=1
 </indicator>
@@ -102,6 +106,7 @@ show_data=1
 
 <window>
 height=34
+fixed_height=0
 <indicator>
 name=Stochastic Oscillator
 kperiod=8
@@ -115,13 +120,13 @@ weight=1
 color2=65535
 style2=0
 weight2=1
-min=0.000000
-max=100.000000
+min=0.00000000
+max=100.00000000
 levels_color=12632256
 levels_style=2
 levels_weight=1
-level_0=20.0000
-level_1=80.0000
+level_0=20.00000000
+level_1=80.00000000
 period_flags=0
 show_data=1
 </indicator>

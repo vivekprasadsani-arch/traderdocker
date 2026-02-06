@@ -1,8 +1,8 @@
 <chart>
-id=134148461273359798
-symbol=GBPCHF-OTCq
+id=134148461514082413
+symbol=CHFJPY-OTCq
 period=1
-leftpos=550
+leftpos=558
 offline=1
 digits=8
 scale=16
@@ -20,10 +20,10 @@ days=0
 descriptions=0
 shift_size=25
 fixed_pos=0
-window_left=26
-window_top=26
-window_right=1210
-window_bottom=424
+window_left=104
+window_top=104
+window_right=1288
+window_bottom=502
 window_type=1
 background_color=5197615
 foreground_color=16777215

@@ -209,8 +209,8 @@ int OnInit()
       Print("IMPORTANT: Add https://api.telegram.org to Tools > Options > Expert Advisors > Allow WebRequest");
       
       // Send test message
-      Print("Sending test Telegram message...");
-      SendTestTelegramMessage();
+      // Print("Sending test Telegram message...");
+      // SendTestTelegramMessage();
    }
    
    // Initialize statistics dashboard
@@ -379,10 +379,21 @@ string DetectCombinedSignal()
 //+------------------------------------------------------------------+
 void ProcessSignal(string direction)
 {
+   // 1. Check Global Trade Lock (New Feature)
+   string lockVar = "MT4_CONN_ACTIVE_TRADE";
+   if(GlobalVariableCheck(lockVar) && GlobalVariableGet(lockVar) == 1.0) {
+      Print("Signal skipped: Another trade is currently active globally.");
+      return;
+   }
+   
    // Check order interval
    if(TimeCurrent() - lastOrderTime < OrderInterval_Seconds) {
       return;
    }
+   
+   // Set Global Lock
+   GlobalVariableSet(lockVar, 1.0);
+   Print("GLOBAL LOCK: Trade started. No other signals allowed until result.");
    
    // Create signal data
    SignalData newSignal;
@@ -676,13 +687,17 @@ void CheckSignalResults()
             totalWins++; 
             UpdateGlobalStats(true);
             LogTradeToSharedFile(signalHistory[i]); // Log to shared file
+            
+            // Release Global Lock
+            GlobalVariableSet("MT4_CONN_ACTIVE_TRADE", 0.0);
+            Print("GLOBAL LOCK: Trade WON. Lock released.");
          }
          else {
              Print("Result: LOSS for ", signalHistory[i].symbol, " Step: ", signalHistory[i].martingaleStep, " Max: ", Martingale_Steps);
              
              if(Martingale_Enable && signalHistory[i].martingaleStep < Martingale_Steps) {
                 // Intermediate Loss: Trigger next step
-                Print(" -> Intermediate Loss. Triggering Martingale Step.");
+                Print(" -> Intermediate Loss. Triggering Martingale Step. LOCK MAINTAINED.");
                 ProcessMartingaleStep(signalHistory[i]);
                 continue; // SKIP Sending Result
              } else {
@@ -691,6 +706,10 @@ void CheckSignalResults()
                 totalLosses++;
                 UpdateGlobalStats(false);
                 LogTradeToSharedFile(signalHistory[i]); // Log to shared file
+                
+                // Release Global Lock
+                GlobalVariableSet("MT4_CONN_ACTIVE_TRADE", 0.0);
+                Print("GLOBAL LOCK: Trade LOST (Final). Lock released.");
              }
          }
          

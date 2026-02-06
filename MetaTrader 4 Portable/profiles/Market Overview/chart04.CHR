@@ -1,8 +1,9 @@
 <chart>
+id=134148606545852551
 symbol=USDJPY
 period=30
-leftpos=531
-digits=2
+leftpos=2026
+digits=3
 scale=8
 graph=1
 fore=1
@@ -12,6 +13,7 @@ scroll=1
 shift=1
 ohlc=1
 one_click=1
+one_click_btn=1
 askline=0
 days=1
 descriptions=0
@@ -36,6 +38,7 @@ stops_color=255
 
 <window>
 height=175
+fixed_height=0
 <indicator>
 name=main
 </indicator>
@@ -43,6 +46,7 @@ name=main
 
 <window>
 height=50
+fixed_height=0
 <indicator>
 name=Money Flow Index
 period=8
@@ -50,13 +54,13 @@ apply=-1
 color=65535
 style=0
 weight=1
-min=0.000000
-max=100.000000
+min=0.00000000
+max=100.00000000
 levels_color=12632256
 levels_style=2
 levels_weight=1
-level_0=20.0000
-level_1=80.0000
+level_0=20.00000000
+level_1=80.00000000
 period_flags=0
 show_data=1
 </indicator>
@@ -64,6 +68,7 @@ show_data=1
 
 <window>
 height=50
+fixed_height=0
 <indicator>
 name=Accumulation/Distribution
 period=14
@@ -78,6 +83,7 @@ show_data=1
 
 <window>
 height=50
+fixed_height=0
 <indicator>
 name=On Balance Volume
 apply=0
@@ -91,6 +97,7 @@ show_data=1
 
 <window>
 height=50
+fixed_height=0
 <indicator>
 name=Volumes
 color=32768
@@ -99,7 +106,7 @@ weight=1
 color2=255
 style2=0
 weight2=1
-min=0.000000
+min=0.00000000
 period_flags=0
 show_data=1
 </indicator>

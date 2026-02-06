@@ -1,8 +1,8 @@
 <chart>
-id=134148462118054199
-symbol=GBPJPY-OTCq
+id=134148465212754041
+symbol=USDEGP-OTCq
 period=1
-leftpos=549
+leftpos=574
 offline=1
 digits=8
 scale=16
@@ -20,10 +20,10 @@ days=0
 descriptions=0
 shift_size=25
 fixed_pos=0
-window_left=182
-window_top=182
-window_right=1366
-window_bottom=580
+window_left=156
+window_top=156
+window_right=1008
+window_bottom=554
 window_type=1
 background_color=5197615
 foreground_color=16777215

@@ -1,8 +1,8 @@
 <chart>
-id=134143567404530974
-symbol=USDMXN-OTCq
+id=134148460953030681
+symbol=USDTRY-OTCq
 period=1
-leftpos=550
+leftpos=558
 offline=1
 digits=8
 scale=16
@@ -20,10 +20,10 @@ days=0
 descriptions=0
 shift_size=25
 fixed_pos=0
-window_left=0
-window_top=0
-window_right=1184
-window_bottom=398
+window_left=156
+window_top=156
+window_right=1340
+window_bottom=554
 window_type=1
 background_color=5197615
 foreground_color=16777215

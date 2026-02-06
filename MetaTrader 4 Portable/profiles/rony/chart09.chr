@@ -1,8 +1,8 @@
 <chart>
-id=134148461126027889
-symbol=AUDUSD-OTCq
+id=134148461329382959
+symbol=EURCAD-OTCq
 period=1
-leftpos=550
+leftpos=558
 offline=1
 digits=8
 scale=16
@@ -20,10 +20,10 @@ days=0
 descriptions=0
 shift_size=25
 fixed_pos=0
-window_left=0
-window_top=0
-window_right=1184
-window_bottom=398
+window_left=52
+window_top=52
+window_right=1236
+window_bottom=450
 window_type=1
 background_color=5197615
 foreground_color=16777215
