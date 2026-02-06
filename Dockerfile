@@ -63,7 +63,7 @@ RUN wine wineboot --init && \
 # However, Docker COPY cannot copy from outside context. 
 # I will assume the user will copy "MetaTrader 4 Portable" into "headless-metatrader4" folder before build.
 # OR I will instruct the user to do so in the Git Instructions.
-COPY --chown=$USER:$USER "MetaTrader 4 Portable" "$MT4DIR"
+COPY --chown=winer:winer ["MetaTrader 4 Portable", "/home/winer/.wine/drive_c/mt4"]
 
 # Copy entrypoint script
 COPY --chown=$USER:$USER entrypoint.sh /docker/entrypoint.sh
