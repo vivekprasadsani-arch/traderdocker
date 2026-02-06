@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: headless-mt4
+    env: docker
+    plan: starter
+    region: ohio
+    envVars:
+      - key: VNC_PASSWORD
+        generate: true
+      - key: DISPLAY
+        value: ":1"
+    disk:
+      name: mt4-data
+      mountPath: /home/winer/.wine
+      sizeGB: 10

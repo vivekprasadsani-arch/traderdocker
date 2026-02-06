@@ -1,0 +1,11 @@
+0	12:39:04.444	Migration: data to 'D:\mt4 docker\MetaTrader 4 Portable' migration started
+0	12:39:04.446	Migration: data migration finished, no virtual folder
+0	12:39:04.448	LiveUpdate: update D:\mt4 docker\MetaTrader 4 Portable\MQL4 folder started
+0	12:39:04.812	LiveUpdate: update D:\mt4 docker\MetaTrader 4 Portable\MQL4 folder finished
+0	12:39:06.574	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	12:39:06.575	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 3681 / 8091 Mb, Disk: 69 / 465 Gb, GMT+6
+0	12:39:06.575	Data Folder: D:\mt4 docker\MetaTrader 4 Portable
+0	12:39:06.982	Sources recompilation started
+0	12:39:14.051	Sources recompilation finished (28 compiled in 7063 msec)
+1	12:39:58.744	MQL5.community: authorization failed
+0	12:39:58.984	Exness Technologies MT4 build 1455 stopped

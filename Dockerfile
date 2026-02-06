@@ -1,87 +1,77 @@
-FROM ubuntu:16.04
-LABEL maintainer="sergey.nevmerzhitsky@gmail.com"
+FROM ubuntu:20.04
 
-WORKDIR /tmp/
+LABEL maintainer="User"
 
-RUN set -ex; \
-    dpkg --add-architecture i386; \
-    DEBIAN_FRONTEND=noninteractive apt-get update -y; \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-        apt-transport-https \
-        binutils \
-        cabextract \
-        curl \
-        # To take screenshots of Xvfb display
-        imagemagick \
-        p7zip \
-        software-properties-common \
-        wget \
-        unzip \
-        xz-utils \
-        xvfb
+ENV DEBIAN_FRONTEND=noninteractive
+ENV WINEARCH=win32
+ENV WINEPREFIX=/home/winer/.wine
+ENV DISPLAY=:1
+ENV MT4DIR=$WINEPREFIX/drive_c/mt4
+ENV VNC_PASSWORD=password
 
-RUN set -ex; \
-    wget -nc https://dl.winehq.org/wine-builds/winehq.key; \
-    apt-key add winehq.key; \
-    apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/; \
-    DEBIAN_FRONTEND=noninteractive apt-get update -y; \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y --install-recommends \
-        winehq-stable; \
+# Install dependencies including Wine, Xvfb, VNC, and Websockify
+RUN dpkg --add-architecture i386 && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends \
+    software-properties-common \
+    wget \
+    curl \
+    unzip \
+    xvfb \
+    x11vnc \
+    openbox \
+    python3 \
+    python3-numpy \
+    net-tools \
+    ca-certificates \
+    cabextract \
+    gnupg2 \
+    git && \
+    wget -nc https://dl.winehq.org/wine-builds/winehq.key && \
+    apt-key add winehq.key && \
+    add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' && \
+    apt-get update && \
+    apt-get install -y --install-recommends winehq-stable && \
+    # Install websockify manually or via pip if needed, but apt version is usually enough or we clone it
+    # We will clone websockify for stability as apt pkg might be old
+    git clone https://github.com/novnc/websockify /opt/websockify && \
+    # Clean up
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* && \
     rm winehq.key
 
-RUN set -ex; \
-    wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks; \
-    chmod +x winetricks; \
-    mv winetricks /usr/local/bin
-
-COPY waitonprocess.sh /docker/
-RUN chmod a+rx /docker/waitonprocess.sh
-
+# Create user
 ARG USER=winer
 ARG HOME=/home/$USER
 ARG USER_ID=1000
-# To access the values from children containers.
-ENV USER=$USER \
-    HOME=$HOME
 
-RUN set -ex; \
-    groupadd $USER;\
+RUN groupadd $USER && \
     useradd -u $USER_ID -d $HOME -g $USER -ms /bin/bash $USER
 
+# Set up Wine prefix
 USER $USER
+WORKDIR $HOME
 
-ENV WINEARCH=win32 \
-    WINEPREFIX=$HOME/.wine \
-    DISPLAY=:1 \
-    SCREEN_NUM=0 \
-    SCREEN_WHD=1366x768x24
-ENV MT4DIR=$WINEPREFIX/drive_c/mt4
+RUN wine wineboot --init && \
+    # Wait for wine to initialize
+    while pgrep wineserver > /dev/null; do sleep 1; done
 
-# @TODO Install actual versions of Mono and Gecko dynamically
-ADD cache $HOME/.cache
+# Copy the local Portable MT4 directory
+# Note: The user's prompt implies we are building this locally or the context is available.
+# Since we are modifying the repo in place, we assume the user will copy "MetaTrader 4 Portable" 
+# into the build context or we configure COPY to pick it up if it was in the context.
+# However, Docker COPY cannot copy from outside context. 
+# I will assume the user will copy "MetaTrader 4 Portable" into "headless-metatrader4" folder before build.
+# OR I will instruct the user to do so in the Git Instructions.
+COPY --chown=$USER:$USER "MetaTrader 4 Portable" "$MT4DIR"
+
+# Copy entrypoint script
+COPY --chown=$USER:$USER entrypoint.sh /docker/entrypoint.sh
+
 USER root
-RUN chown $USER:$USER -R $HOME/.cache
-
+RUN chmod +x /docker/entrypoint.sh
 USER $USER
-RUN set -ex; \
-    wine wineboot --init; \
-    /docker/waitonprocess.sh wineserver; \
-    winetricks --unattended dotnet40; \
-    /docker/waitonprocess.sh wineserver
 
-USER root
-COPY run_mt.sh screenshot.sh /docker/
-RUN set -e; \
-    chmod a+rx /docker/run_mt.sh /docker/screenshot.sh; \
-    mkdir -p /tmp/screenshots/; \
-    chown winer:winer /tmp/screenshots/
+EXPOSE 8080
 
-USER $USER
-WORKDIR $MT4DIR
-VOLUME /tmp/screenshots/
-
-ENTRYPOINT ["/bin/bash"]
-CMD ["/docker/run_mt.sh"]
-
-# @TODO Add ability to list logs which content should be redirected to STDOUT with a prefix
-# @TODO Add ability to change TZ of the OS
+ENTRYPOINT ["/docker/entrypoint.sh"]
