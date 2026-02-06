@@ -1160,3 +1160,16 @@
 2	21:09:28.865	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: removed
 1	21:09:29.350	MQL5.community: authorization failed
 0	21:09:29.522	Exness Technologies MT4 build 1455 stopped
+0	21:23:11.915	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	21:23:11.916	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 1629 / 8091 Mb, Disk: 20 / 118 Gb, GMT+6
+0	21:23:11.916	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+2	21:23:13.964	Expert EABiBot_Tick XAUUSD,M1: loaded successfully
+2	21:23:14.008	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: loaded successfully
+2	21:23:14.032	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: loaded successfully
+0	21:23:15.949	'69763813': login on Exness-Trial8 through DC06 (ping: 86.81 ms)
+0	21:23:16.855	'69763813': login datacenter on Exness-Trial8 through DC06 (ping: 86.81 ms)
+0	21:23:17.737	'69763813': previous successful authorization performed from 74.220.48.246
+2	21:24:19.759	Expert EABiBot_Tick XAUUSD,M1: removed
+2	21:24:19.781	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: removed
+2	21:24:19.785	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: removed
+0	21:24:20.204	Exness Technologies MT4 build 1455 stopped
