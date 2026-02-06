@@ -2,18 +2,18 @@
 id=134002549915405992
 symbol=XAUUSD
 period=60
-leftpos=0
+leftpos=253
 digits=3
 scale=2
-graph=0
+graph=2
 fore=0
-grid=1
+grid=0
 volume=0
-scroll=1
+scroll=0
 shift=0
-ohlc=1
+ohlc=0
 one_click=0
-one_click_btn=1
+one_click_btn=0
 askline=0
 days=0
 descriptions=0
@@ -23,17 +23,17 @@ window_left=0
 window_top=0
 window_right=587
 window_bottom=220
-window_type=1
+window_type=3
 background_color=0
 foreground_color=16777215
 barup_color=65280
 bardown_color=65280
 bullcandle_color=0
 bearcandle_color=16777215
-chartline_color=65280
+chartline_color=0
 volumes_color=3329330
-grid_color=10061943
-askline_color=255
+grid_color=0
+askline_color=0
 stops_color=255
 
 <window>
@@ -43,5 +43,24 @@ fixed_height=0
 name=main
 </indicator>
 </window>
+
+<expert>
+name=EABiBot_Tick
+flags=339
+window_num=0
+<inputs>
+s0====== join telegram group @bibot_official =====
+s10====== telegram @Mt2Bo =====
+user=Kalachan1122qtx:287068
+listTf=1,5
+_bars=600
+_filter=
+templateIndex=
+on_tick=false
+_gmt_offset=0
+__broker=0
+suffix=true
+</inputs>
+</expert>
 </chart>
 

@@ -1,11 +1,690 @@
-0	12:39:04.444	Migration: data to 'D:\mt4 docker\MetaTrader 4 Portable' migration started
-0	12:39:04.446	Migration: data migration finished, no virtual folder
-0	12:39:04.448	LiveUpdate: update D:\mt4 docker\MetaTrader 4 Portable\MQL4 folder started
-0	12:39:04.812	LiveUpdate: update D:\mt4 docker\MetaTrader 4 Portable\MQL4 folder finished
-0	12:39:06.574	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
-0	12:39:06.575	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 3681 / 8091 Mb, Disk: 69 / 465 Gb, GMT+6
-0	12:39:06.575	Data Folder: D:\mt4 docker\MetaTrader 4 Portable
-0	12:39:06.982	Sources recompilation started
-0	12:39:14.051	Sources recompilation finished (28 compiled in 7063 msec)
-1	12:39:58.744	MQL5.community: authorization failed
-0	12:39:58.984	Exness Technologies MT4 build 1455 stopped
+0	14:14:33.945	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\config\accounts.ini' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\config\accounts.ini'
+0	14:14:33.969	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\config\community.ini' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\config\community.ini'
+0	14:14:33.979	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\config\servers.ini' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\config\servers.ini'
+0	14:14:34.000	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\config\terminal.ini' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\config\terminal.ini'
+0	14:14:34.000	Migration: config folder copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F'
+0	14:14:34.024	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\EURUSD240.hst' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\EURUSD240.hst'
+0	14:14:34.031	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\GBPUSD240.hst' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\GBPUSD240.hst'
+0	14:14:34.054	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\USDCHF240.hst' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\USDCHF240.hst'
+0	14:14:34.073	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\USDJPY240.hst' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\USDJPY240.hst'
+0	14:14:34.104	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\symbols.sel' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\symbols.sel'
+0	14:14:34.133	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\symbols.raw' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\symbols.raw'
+0	14:14:34.135	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\symgroups.raw' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\symgroups.raw'
+0	14:14:34.155	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\books.dat' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\books.dat'
+0	14:14:34.156	Migration: history folder copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F'
+0	14:14:34.158	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\EURUSD240.hst' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\EURUSD240.hst'
+0	14:14:34.161	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\GBPUSD240.hst' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\GBPUSD240.hst'
+0	14:14:34.164	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\symbols.raw' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\symbols.raw'
+0	14:14:34.165	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\symbols.sel' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\symbols.sel'
+0	14:14:34.166	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\symgroups.raw' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\symgroups.raw'
+0	14:14:34.169	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\USDCHF240.hst' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\USDCHF240.hst'
+0	14:14:34.172	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\default\USDJPY240.hst' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\default\USDJPY240.hst'
+0	14:14:34.174	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\symbolsets\forex.set' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\symbolsets\forex.set'
+0	14:14:34.176	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\symbolsets\forexall.set' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\symbolsets\forexall.set'
+0	14:14:34.197	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998400.arabic' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998400.arabic'
+0	14:14:34.199	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998401.bulgarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998401.bulgarian'
+0	14:14:34.201	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998402.chinese (simplified)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998402.chinese (simplified)'
+0	14:14:34.205	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998403.chinese (traditional)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998403.chinese (traditional)'
+0	14:14:34.207	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998404.czech' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998404.czech'
+0	14:14:34.209	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998406.french' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998406.french'
+0	14:14:34.210	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998407.german' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998407.german'
+0	14:14:34.213	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998408.greek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998408.greek'
+0	14:14:34.215	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998409.hebrew' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998409.hebrew'
+0	14:14:34.217	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998410.hungarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998410.hungarian'
+0	14:14:34.220	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998411.indonesian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998411.indonesian'
+0	14:14:34.222	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998412.italian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998412.italian'
+0	14:14:34.225	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998413.japanese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998413.japanese'
+0	14:14:34.227	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998414.malay' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998414.malay'
+0	14:14:34.230	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998415.polish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998415.polish'
+0	14:14:34.232	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998416.portuguese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998416.portuguese'
+0	14:14:34.234	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998417.russian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998417.russian'
+0	14:14:34.236	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998418.slovenian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998418.slovenian'
+0	14:14:34.239	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998419.spanish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998419.spanish'
+0	14:14:34.241	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998420.tajik' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998420.tajik'
+0	14:14:34.243	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998421.thai' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998421.thai'
+0	14:14:34.246	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998422.turkish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998422.turkish'
+0	14:14:34.247	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998423.uzbek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998423.uzbek'
+0	14:14:34.249	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998424.vietnamese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998424.vietnamese'
+0	14:14:34.252	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998425.arabic' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998425.arabic'
+0	14:14:34.254	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998426.bulgarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998426.bulgarian'
+0	14:14:34.256	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998427.chinese (simplified)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998427.chinese (simplified)'
+0	14:14:34.258	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998428.chinese (traditional)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998428.chinese (traditional)'
+0	14:14:34.260	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998429.czech' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998429.czech'
+0	14:14:34.262	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998431.french' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998431.french'
+0	14:14:34.265	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998432.german' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998432.german'
+0	14:14:34.266	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998433.greek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998433.greek'
+0	14:14:34.268	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998434.hebrew' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998434.hebrew'
+0	14:14:34.271	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998435.hungarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998435.hungarian'
+0	14:14:34.272	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998436.indonesian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998436.indonesian'
+0	14:14:34.274	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998437.italian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998437.italian'
+0	14:14:34.276	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998438.japanese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998438.japanese'
+0	14:14:34.278	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998439.malay' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998439.malay'
+0	14:14:34.279	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998440.polish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998440.polish'
+0	14:14:34.282	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998441.portuguese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998441.portuguese'
+0	14:14:34.283	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998442.russian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998442.russian'
+0	14:14:34.286	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998443.slovenian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998443.slovenian'
+0	14:14:34.288	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998444.spanish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998444.spanish'
+0	14:14:34.290	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998445.tajik' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998445.tajik'
+0	14:14:34.292	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998446.thai' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998446.thai'
+0	14:14:34.294	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998447.turkish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998447.turkish'
+0	14:14:34.295	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998448.uzbek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998448.uzbek'
+0	14:14:34.298	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998449.vietnamese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998449.vietnamese'
+0	14:14:34.300	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998450.arabic' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998450.arabic'
+0	14:14:34.303	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998451.bulgarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998451.bulgarian'
+0	14:14:34.305	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998452.chinese (simplified)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998452.chinese (simplified)'
+0	14:14:34.306	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998453.chinese (traditional)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998453.chinese (traditional)'
+0	14:14:34.308	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998454.czech' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998454.czech'
+0	14:14:34.310	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998456.french' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998456.french'
+0	14:14:34.312	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998457.german' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998457.german'
+0	14:14:34.314	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998458.greek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998458.greek'
+0	14:14:34.317	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998459.hebrew' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998459.hebrew'
+0	14:14:34.319	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998460.hungarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998460.hungarian'
+0	14:14:34.321	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998461.indonesian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998461.indonesian'
+0	14:14:34.324	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998462.italian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998462.italian'
+0	14:14:34.326	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998463.japanese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998463.japanese'
+0	14:14:34.328	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998464.malay' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998464.malay'
+0	14:14:34.330	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998465.polish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998465.polish'
+0	14:14:34.332	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998466.portuguese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998466.portuguese'
+0	14:14:34.334	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998467.russian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998467.russian'
+0	14:14:34.337	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998468.slovenian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998468.slovenian'
+0	14:14:34.339	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998469.spanish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998469.spanish'
+0	14:14:34.341	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998470.tajik' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998470.tajik'
+0	14:14:34.343	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998471.thai' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998471.thai'
+0	14:14:34.345	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998472.turkish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998472.turkish'
+0	14:14:34.347	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998473.uzbek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998473.uzbek'
+0	14:14:34.349	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998474.vietnamese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998474.vietnamese'
+0	14:14:34.354	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998475.arabic' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998475.arabic'
+0	14:14:34.356	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998476.bulgarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998476.bulgarian'
+0	14:14:34.358	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998477.chinese (simplified)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998477.chinese (simplified)'
+0	14:14:34.361	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998478.chinese (traditional)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998478.chinese (traditional)'
+0	14:14:34.364	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998479.czech' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998479.czech'
+0	14:14:34.366	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998481.french' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998481.french'
+0	14:14:34.368	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998482.german' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998482.german'
+0	14:14:34.371	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998483.greek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998483.greek'
+0	14:14:34.373	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998484.hebrew' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998484.hebrew'
+0	14:14:34.375	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998485.hungarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998485.hungarian'
+0	14:14:34.377	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998486.indonesian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998486.indonesian'
+0	14:14:34.380	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998487.italian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998487.italian'
+0	14:14:34.382	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998488.japanese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998488.japanese'
+0	14:14:34.383	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998489.malay' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998489.malay'
+0	14:14:34.386	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998490.polish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998490.polish'
+0	14:14:34.388	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998491.portuguese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998491.portuguese'
+0	14:14:34.390	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998492.russian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998492.russian'
+0	14:14:34.392	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998493.slovenian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998493.slovenian'
+0	14:14:34.394	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998494.spanish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998494.spanish'
+0	14:14:34.396	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998495.tajik' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998495.tajik'
+0	14:14:34.399	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998496.thai' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998496.thai'
+0	14:14:34.401	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998497.turkish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998497.turkish'
+0	14:14:34.404	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998498.uzbek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998498.uzbek'
+0	14:14:34.407	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998499.vietnamese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998499.vietnamese'
+0	14:14:34.410	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998500.arabic' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998500.arabic'
+0	14:14:34.413	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998501.bulgarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998501.bulgarian'
+0	14:14:34.415	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998502.chinese (simplified)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998502.chinese (simplified)'
+0	14:14:34.417	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998503.chinese (traditional)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998503.chinese (traditional)'
+0	14:14:34.420	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998504.czech' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998504.czech'
+0	14:14:34.433	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998506.french' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998506.french'
+0	14:14:34.437	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998507.german' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998507.german'
+0	14:14:34.439	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998508.greek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998508.greek'
+0	14:14:34.441	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998509.hebrew' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998509.hebrew'
+0	14:14:34.444	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998510.hungarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998510.hungarian'
+0	14:14:34.446	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998511.indonesian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998511.indonesian'
+0	14:14:34.448	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998512.italian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998512.italian'
+0	14:14:34.450	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998513.japanese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998513.japanese'
+0	14:14:34.452	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998514.malay' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998514.malay'
+0	14:14:34.456	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998515.polish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998515.polish'
+0	14:14:34.458	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998516.portuguese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998516.portuguese'
+0	14:14:34.461	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998517.russian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998517.russian'
+0	14:14:34.463	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998518.slovenian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998518.slovenian'
+0	14:14:34.466	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998519.spanish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998519.spanish'
+0	14:14:34.468	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998520.tajik' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998520.tajik'
+0	14:14:34.471	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998521.thai' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998521.thai'
+0	14:14:34.473	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998522.turkish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998522.turkish'
+0	14:14:34.475	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998523.uzbek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998523.uzbek'
+0	14:14:34.477	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998524.vietnamese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998524.vietnamese'
+0	14:14:34.479	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998525.arabic' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998525.arabic'
+0	14:14:34.481	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998526.bulgarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998526.bulgarian'
+0	14:14:34.483	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998527.chinese (simplified)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998527.chinese (simplified)'
+0	14:14:34.485	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998528.chinese (traditional)' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998528.chinese (traditional)'
+0	14:14:34.487	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998529.czech' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998529.czech'
+0	14:14:34.489	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998531.french' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998531.french'
+0	14:14:34.492	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998532.german' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998532.german'
+0	14:14:34.494	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998533.greek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998533.greek'
+0	14:14:34.495	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998534.hebrew' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998534.hebrew'
+0	14:14:34.498	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998534.hungarian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998534.hungarian'
+0	14:14:34.499	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998535.italian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998535.italian'
+0	14:14:34.501	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998536.indonesian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998536.indonesian'
+0	14:14:34.504	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998536.japanese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998536.japanese'
+0	14:14:34.506	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998537.malay' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998537.malay'
+0	14:14:34.508	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998538.polish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998538.polish'
+0	14:14:34.510	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998539.portuguese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998539.portuguese'
+0	14:14:34.513	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998540.russian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998540.russian'
+0	14:14:34.515	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998541.slovenian' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998541.slovenian'
+0	14:14:34.517	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998542.spanish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998542.spanish'
+0	14:14:34.520	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998543.tajik' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998543.tajik'
+0	14:14:34.523	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998544.thai' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998544.thai'
+0	14:14:34.525	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998545.turkish' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998545.turkish'
+0	14:14:34.527	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998546.uzbek' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998546.uzbek'
+0	14:14:34.529	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1356998547.vietnamese' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1356998547.vietnamese'
+0	14:14:34.535	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1770381546.English' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1770381546.English'
+0	14:14:34.537	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1770381547.English' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1770381547.English'
+0	14:14:34.540	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1770381548.English' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1770381548.English'
+0	14:14:34.542	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1770381549.English' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1770381549.English'
+0	14:14:34.544	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1770381550.English' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1770381550.English'
+0	14:14:34.546	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\history\mailbox\1770381551.English' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\history\mailbox\1770381551.English'
+0	14:14:34.546	Migration: mailbox folder copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F'
+0	14:14:34.563	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\British Pound\chart01.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\British Pound\chart01.CHR'
+0	14:14:34.566	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\British Pound\chart02.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\British Pound\chart02.CHR'
+0	14:14:34.568	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\British Pound\chart03.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\British Pound\chart03.CHR'
+0	14:14:34.570	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\British Pound\order.wnd' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\British Pound\order.wnd'
+0	14:14:34.574	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\default\chart01.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\default\chart01.CHR'
+0	14:14:34.576	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\default\chart02.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\default\chart02.CHR'
+0	14:14:34.578	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\default\chart03.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\default\chart03.CHR'
+0	14:14:34.580	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\default\chart04.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\default\chart04.CHR'
+0	14:14:34.582	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\default\chart05.chr' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\default\chart05.chr'
+0	14:14:34.584	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\default\order.wnd' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\default\order.wnd'
+0	14:14:34.588	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Euro\chart01.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Euro\chart01.CHR'
+0	14:14:34.590	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Euro\chart02.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Euro\chart02.CHR'
+0	14:14:34.593	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Euro\chart03.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Euro\chart03.CHR'
+0	14:14:34.595	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Euro\order.wnd' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Euro\order.wnd'
+0	14:14:34.597	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\lastprofile.ini' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\lastprofile.ini'
+0	14:14:34.600	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Market Overview\chart01.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Market Overview\chart01.CHR'
+0	14:14:34.603	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Market Overview\chart02.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Market Overview\chart02.CHR'
+0	14:14:34.605	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Market Overview\chart03.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Market Overview\chart03.CHR'
+0	14:14:34.607	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Market Overview\chart04.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Market Overview\chart04.CHR'
+0	14:14:34.609	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Market Overview\order.wnd' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Market Overview\order.wnd'
+0	14:14:34.613	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Swiss Franc\chart01.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Swiss Franc\chart01.CHR'
+0	14:14:34.615	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Swiss Franc\chart02.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Swiss Franc\chart02.CHR'
+0	14:14:34.617	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Swiss Franc\chart03.CHR' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Swiss Franc\chart03.CHR'
+0	14:14:34.620	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\profiles\Swiss Franc\order.wnd' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\profiles\Swiss Franc\order.wnd'
+0	14:14:34.620	Migration: profiles folder copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F'
+0	14:14:34.624	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\ADX.tpl' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\ADX.tpl'
+0	14:14:34.625	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\BollingerBands.tpl' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\BollingerBands.tpl'
+0	14:14:34.627	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\Layers.tpl' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\Layers.tpl'
+0	14:14:34.630	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\Momentum.tpl' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\Momentum.tpl'
+0	14:14:34.632	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\OptimizationReport.htm' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\OptimizationReport.htm'
+0	14:14:34.634	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\Popular.tpl' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\Popular.tpl'
+0	14:14:34.636	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\statement.htm' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\statement.htm'
+0	14:14:34.638	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\StatementDetailed.htm' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\StatementDetailed.htm'
+0	14:14:34.639	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\strategytester.htm' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\strategytester.htm'
+0	14:14:34.642	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\Volume.tpl' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\Volume.tpl'
+0	14:14:34.643	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\templates\Williams.tpl' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\templates\Williams.tpl'
+0	14:14:34.643	Migration: templates folder copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F'
+0	14:14:34.663	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Experts\MACD Sample.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Experts\MACD Sample.ex4'
+0	14:14:34.712	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Experts\MACD Sample.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Experts\MACD Sample.mq4'
+0	14:14:34.714	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Experts\Moving Average.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Experts\Moving Average.ex4'
+0	14:14:34.716	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Experts\Moving Average.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Experts\Moving Average.mq4'
+0	14:14:34.717	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Experts\mqlcache.dat' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Experts\mqlcache.dat'
+0	14:14:34.721	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\Array.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\Array.mqh'
+0	14:14:34.723	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\ArrayChar.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\ArrayChar.mqh'
+0	14:14:34.726	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\ArrayDouble.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\ArrayDouble.mqh'
+0	14:14:34.727	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\ArrayFloat.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\ArrayFloat.mqh'
+0	14:14:34.730	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\ArrayInt.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\ArrayInt.mqh'
+0	14:14:34.732	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\ArrayLong.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\ArrayLong.mqh'
+0	14:14:34.734	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\ArrayObj.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\ArrayObj.mqh'
+0	14:14:34.736	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\ArrayShort.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\ArrayShort.mqh'
+0	14:14:34.738	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\ArrayString.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\ArrayString.mqh'
+0	14:14:34.739	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\List.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\List.mqh'
+0	14:14:34.742	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\Tree.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\Tree.mqh'
+0	14:14:34.744	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Arrays\TreeNode.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Arrays\TreeNode.mqh'
+0	14:14:34.749	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Canvas\Canvas.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Canvas\Canvas.mqh'
+0	14:14:34.752	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\ChartObjects\ChartObject.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\ChartObjects\ChartObject.mqh'
+0	14:14:34.755	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\ChartObjects\ChartObjectPanel.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\ChartObjects\ChartObjectPanel.mqh'
+0	14:14:34.757	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\ChartObjects\ChartObjectsArrows.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\ChartObjects\ChartObjectsArrows.mqh'
+0	14:14:34.758	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\ChartObjects\ChartObjectsBmpControls.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\ChartObjects\ChartObjectsBmpControls.mqh'
+0	14:14:34.761	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\ChartObjects\ChartObjectsChannels.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\ChartObjects\ChartObjectsChannels.mqh'
+0	14:14:34.763	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\ChartObjects\ChartObjectsFibo.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\ChartObjects\ChartObjectsFibo.mqh'
+0	14:14:34.765	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\ChartObjects\ChartObjectsGann.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\ChartObjects\ChartObjectsGann.mqh'
+0	14:14:34.767	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\ChartObjects\ChartObjectsLines.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\ChartObjects\ChartObjectsLines.mqh'
+0	14:14:34.770	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\ChartObjects\ChartObjectsShapes.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\ChartObjects\ChartObjectsShapes.mqh'
+0	14:14:34.772	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\ChartObjects\ChartObjectsTxtControls.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\ChartObjects\ChartObjectsTxtControls.mqh'
+0	14:14:34.777	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Charts\Chart.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Charts\Chart.mqh'
+0	14:14:34.781	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\BmpButton.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\BmpButton.mqh'
+0	14:14:34.783	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\Button.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\Button.mqh'
+0	14:14:34.785	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\CheckBox.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\CheckBox.mqh'
+0	14:14:34.787	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\CheckGroup.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\CheckGroup.mqh'
+0	14:14:34.789	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\ComboBox.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\ComboBox.mqh'
+0	14:14:34.791	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\DateDropList.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\DateDropList.mqh'
+0	14:14:34.793	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\DatePicker.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\DatePicker.mqh'
+0	14:14:34.795	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\Defines.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\Defines.mqh'
+0	14:14:34.797	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\Dialog.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\Dialog.mqh'
+0	14:14:34.799	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\Edit.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\Edit.mqh'
+0	14:14:34.802	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\Label.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\Label.mqh'
+0	14:14:34.804	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\ListView.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\ListView.mqh'
+0	14:14:34.806	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\Panel.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\Panel.mqh'
+0	14:14:34.808	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\Picture.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\Picture.mqh'
+0	14:14:34.810	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\RadioButton.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\RadioButton.mqh'
+0	14:14:34.812	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\RadioGroup.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\RadioGroup.mqh'
+0	14:14:34.814	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\Rect.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\Rect.mqh'
+0	14:14:34.818	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\CheckBoxOff.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\CheckBoxOff.bmp'
+0	14:14:34.820	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\CheckBoxOn.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\CheckBoxOn.bmp'
+0	14:14:34.822	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\Close.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\Close.bmp'
+0	14:14:34.824	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\CloseDisable.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\CloseDisable.bmp'
+0	14:14:34.826	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\CloseOff.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\CloseOff.bmp'
+0	14:14:34.827	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\CloseOn.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\CloseOn.bmp'
+0	14:14:34.831	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\DateDropOff.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\DateDropOff.bmp'
+0	14:14:34.833	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\DateDropOn.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\DateDropOn.bmp'
+0	14:14:34.834	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\Down.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\Down.bmp'
+0	14:14:34.836	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\DownDisable.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\DownDisable.bmp'
+0	14:14:34.838	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\DownSmall.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\DownSmall.bmp'
+0	14:14:34.840	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\DownTransp.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\DownTransp.bmp'
+0	14:14:34.843	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\down_smoll.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\down_smoll.bmp'
+0	14:14:34.846	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\DropOff.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\DropOff.bmp'
+0	14:14:34.847	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\DropOn.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\DropOn.bmp'
+0	14:14:34.850	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\ExpandDisable.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\ExpandDisable.bmp'
+0	14:14:34.851	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\ExpandOff.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\ExpandOff.bmp'
+0	14:14:34.853	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\ExpandOn.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\ExpandOn.bmp'
+0	14:14:34.855	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\HelpDisable.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\HelpDisable.bmp'
+0	14:14:34.857	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\HelpOff.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\HelpOff.bmp'
+0	14:14:34.859	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\HelpOn.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\HelpOn.bmp'
+0	14:14:34.862	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\Left.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\Left.bmp'
+0	14:14:34.863	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\LeftDisable.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\LeftDisable.bmp'
+0	14:14:34.866	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\LeftTransp.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\LeftTransp.bmp'
+0	14:14:34.868	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\RadioButtonOff.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\RadioButtonOff.bmp'
+0	14:14:34.870	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\RadioButtonOn.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\RadioButtonOn.bmp'
+0	14:14:34.872	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\Restore.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\Restore.bmp'
+0	14:14:34.874	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\RestoreDisable.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\RestoreDisable.bmp'
+0	14:14:34.876	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\RestoreOff.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\RestoreOff.bmp'
+0	14:14:34.878	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\RestoreOn.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\RestoreOn.bmp'
+0	14:14:34.881	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\Right.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\Right.bmp'
+0	14:14:34.883	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\RightDisable.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\RightDisable.bmp'
+0	14:14:34.884	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\RightTransp.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\RightTransp.bmp'
+0	14:14:34.887	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\SpinDec.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\SpinDec.bmp'
+0	14:14:34.888	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\SpinInc.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\SpinInc.bmp'
+0	14:14:34.891	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\ThumbHor.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\ThumbHor.bmp'
+0	14:14:34.893	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\ThumbHorDisable.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\ThumbHorDisable.bmp'
+0	14:14:34.895	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\ThumbVert.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\ThumbVert.bmp'
+0	14:14:34.897	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\ThumbVertDisable.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\ThumbVertDisable.bmp'
+0	14:14:34.899	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\Turn.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\Turn.bmp'
+0	14:14:34.900	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\TurnOff.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\TurnOff.bmp'
+0	14:14:34.903	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\TurnOn.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\TurnOn.bmp'
+0	14:14:34.905	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\Up.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\Up.bmp'
+0	14:14:34.908	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\UpDisable.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\UpDisable.bmp'
+0	14:14:34.910	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\UpSmall.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\UpSmall.bmp'
+0	14:14:34.912	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\UpTransp.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\UpTransp.bmp'
+0	14:14:34.913	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\res\up_smoll.bmp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\res\up_smoll.bmp'
+0	14:14:34.916	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\Scrolls.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\Scrolls.mqh'
+0	14:14:34.918	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\SpinEdit.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\SpinEdit.mqh'
+0	14:14:34.920	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\TimePicker.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\TimePicker.mqh'
+0	14:14:34.922	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\Wnd.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\Wnd.mqh'
+0	14:14:34.925	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\WndClient.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\WndClient.mqh'
+0	14:14:34.927	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\WndContainer.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\WndContainer.mqh'
+0	14:14:34.929	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Controls\WndObj.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Controls\WndObj.mqh'
+0	14:14:34.933	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Files\File.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Files\File.mqh'
+0	14:14:34.935	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Files\FileBin.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Files\FileBin.mqh'
+0	14:14:34.936	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Files\FilePipe.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Files\FilePipe.mqh'
+0	14:14:34.938	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Files\FileTxt.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Files\FileTxt.mqh'
+0	14:14:34.942	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Indicators\BillWilliams.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Indicators\BillWilliams.mqh'
+0	14:14:34.944	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Indicators\Custom.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Indicators\Custom.mqh'
+0	14:14:34.946	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Indicators\Indicator.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Indicators\Indicator.mqh'
+0	14:14:34.947	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Indicators\Indicators.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Indicators\Indicators.mqh'
+0	14:14:34.950	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Indicators\Oscilators.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Indicators\Oscilators.mqh'
+0	14:14:34.951	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Indicators\Series.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Indicators\Series.mqh'
+0	14:14:34.953	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Indicators\TimeSeries.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Indicators\TimeSeries.mqh'
+0	14:14:34.955	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Indicators\Trend.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Indicators\Trend.mqh'
+0	14:14:34.957	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Indicators\Volumes.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Indicators\Volumes.mqh'
+0	14:14:34.959	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\MovingAverages.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\MovingAverages.mqh'
+0	14:14:34.960	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Object.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Object.mqh'
+0	14:14:34.963	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\stderror.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\stderror.mqh'
+0	14:14:34.965	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\stdlib.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\stdlib.mqh'
+0	14:14:34.967	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\StdLibErr.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\StdLibErr.mqh'
+0	14:14:34.971	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Strings\String.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Strings\String.mqh'
+0	14:14:34.974	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\Tools\DateTime.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\Tools\DateTime.mqh'
+0	14:14:34.976	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Include\WinUser32.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Include\WinUser32.mqh'
+0	14:14:34.978	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Accelerator.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Accelerator.ex4'
+0	14:14:34.980	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Accelerator.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Accelerator.mq4'
+0	14:14:34.982	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Accumulation.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Accumulation.ex4'
+0	14:14:34.984	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Accumulation.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Accumulation.mq4'
+0	14:14:34.986	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Alligator.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Alligator.ex4'
+0	14:14:34.988	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Alligator.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Alligator.mq4'
+0	14:14:34.990	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\ATR.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\ATR.ex4'
+0	14:14:34.992	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\ATR.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\ATR.mq4'
+0	14:14:34.994	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Awesome.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Awesome.ex4'
+0	14:14:34.996	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Awesome.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Awesome.mq4'
+0	14:14:34.998	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Bands.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Bands.ex4'
+0	14:14:34.999	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Bands.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Bands.mq4'
+0	14:14:35.002	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Bears.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Bears.ex4'
+0	14:14:35.004	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Bears.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Bears.mq4'
+0	14:14:35.006	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Bulls.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Bulls.ex4'
+0	14:14:35.007	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Bulls.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Bulls.mq4'
+0	14:14:35.010	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\CCI.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\CCI.ex4'
+0	14:14:35.012	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\CCI.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\CCI.mq4'
+0	14:14:35.013	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Custom Moving Averages.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Custom Moving Averages.ex4'
+0	14:14:35.018	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Custom Moving Averages.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Custom Moving Averages.mq4'
+0	14:14:35.026	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Examples\SimplePanel\PanelDialog.mqh' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Examples\SimplePanel\PanelDialog.mqh'
+0	14:14:35.034	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Examples\SimplePanel\SimplePanel.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Examples\SimplePanel\SimplePanel.ex4'
+0	14:14:35.038	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Examples\SimplePanel\SimplePanel.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Examples\SimplePanel\SimplePanel.mq4'
+0	14:14:35.041	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Heiken Ashi.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Heiken Ashi.ex4'
+0	14:14:35.044	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Heiken Ashi.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Heiken Ashi.mq4'
+0	14:14:35.046	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Ichimoku.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Ichimoku.ex4'
+0	14:14:35.048	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Ichimoku.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Ichimoku.mq4'
+0	14:14:35.051	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\iExposure.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\iExposure.ex4'
+0	14:14:35.055	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\iExposure.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\iExposure.mq4'
+0	14:14:35.087	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\MACD.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\MACD.ex4'
+0	14:14:35.089	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\MACD.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\MACD.mq4'
+0	14:14:35.091	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Momentum.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Momentum.ex4'
+0	14:14:35.093	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Momentum.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Momentum.mq4'
+0	14:14:35.113	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\mqlcache.dat' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\mqlcache.dat'
+0	14:14:35.115	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\OsMA.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\OsMA.ex4'
+0	14:14:35.118	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\OsMA.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\OsMA.mq4'
+0	14:14:35.120	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Parabolic.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Parabolic.ex4'
+0	14:14:35.122	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Parabolic.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Parabolic.mq4'
+0	14:14:35.124	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\RSI.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\RSI.ex4'
+0	14:14:35.126	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\RSI.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\RSI.mq4'
+0	14:14:35.128	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Stochastic.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Stochastic.ex4'
+0	14:14:35.130	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\Stochastic.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\Stochastic.mq4'
+0	14:14:35.132	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\ZigZag.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\ZigZag.ex4'
+0	14:14:35.134	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Indicators\ZigZag.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Indicators\ZigZag.mq4'
+0	14:14:35.147	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Libraries\mqlcache.dat' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Libraries\mqlcache.dat'
+0	14:14:35.171	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Libraries\stdlib.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Libraries\stdlib.ex4'
+0	14:14:35.175	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Libraries\stdlib.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Libraries\stdlib.mq4'
+0	14:14:35.177	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Logs\20260206.log' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Logs\20260206.log'
+0	14:14:35.183	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\Examples\DLL\DLLSample.cpp' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\Examples\DLL\DLLSample.cpp'
+0	14:14:35.184	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\Examples\DLL\DLLSample.vcxproj' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\Examples\DLL\DLLSample.vcxproj'
+0	14:14:35.200	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\Examples\DLL\DLLSampleTester.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\Examples\DLL\DLLSampleTester.ex4'
+0	14:14:35.202	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\Examples\DLL\DLLSampleTester.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\Examples\DLL\DLLSampleTester.mq4'
+0	14:14:35.207	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\Examples\DLL\Libraries\DLLSample.dll' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\Examples\DLL\Libraries\DLLSample.dll'
+0	14:14:35.210	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\Examples\Pipes\PipeClient.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\Examples\Pipes\PipeClient.ex4'
+0	14:14:35.212	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\Examples\Pipes\PipeClient.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\Examples\Pipes\PipeClient.mq4'
+0	14:14:35.214	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\Examples\Pipes\PipeClientPure.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\Examples\Pipes\PipeClientPure.ex4'
+0	14:14:35.217	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\Examples\Pipes\PipeClientPure.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\Examples\Pipes\PipeClientPure.mq4'
+0	14:14:35.219	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\mqlcache.dat' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\mqlcache.dat'
+0	14:14:35.221	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\PeriodConverter.ex4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\PeriodConverter.ex4'
+0	14:14:35.222	Migration: copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable\MQL4\Scripts\PeriodConverter.mq4' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4\Scripts\PeriodConverter.mq4'
+0	14:14:35.222	Migration: MQL4 folder copied from 'D:\meta trader 4 docker\MetaTrader 4 Portable' to 'C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F'
+0	14:14:35.236	LiveUpdate: update C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4 folder started
+0	14:14:35.613	LiveUpdate: update C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F\MQL4 folder finished
+0	14:14:35.839	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	14:14:35.841	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 1004 / 8091 Mb, Disk: 17 / 118 Gb, GMT+6
+0	14:14:35.841	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+0	14:14:36.116	Sources recompilation started
+0	14:14:46.018	Sources recompilation finished (28 compiled in 9907 msec)
+0	14:15:24.109	'69763813': login on Exness-Trial8 through 47.236.69.17 (ping: n/a)
+0	14:15:29.628	'69763813': previous successful authorization performed from 74.220.48.246
+0	14:16:00.175	'69763813': auto connecting to a better access point DC02 (ping is 521.64 ms)
+0	14:16:01.442	'69763813': login on Exness-Trial8 through DC02 (ping: 521.64 ms)
+0	14:16:05.807	'69763813': login datacenter on Exness-Trial8 through DC02 (ping: 521.64 ms)
+0	14:16:07.305	'69763813': previous successful authorization performed from 89.187.177.74
+0	14:16:53.407	Exness Technologies MT4 build 1455 stopped
+0	14:17:10.275	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	14:17:10.276	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 1098 / 8091 Mb, Disk: 17 / 118 Gb, GMT+6
+0	14:17:10.276	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+0	14:17:14.899	'69763813': login on Exness-Trial8 through DC02 (ping: 521.64 ms)
+0	14:17:19.877	'69763813': login datacenter on Exness-Trial8 through DC02 (ping: 521.64 ms)
+0	14:17:21.862	'69763813': previous successful authorization performed from 89.187.177.74
+0	14:18:42.099	Exness Technologies MT4 build 1455 stopped
+0	14:21:27.454	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	14:21:27.455	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 1697 / 8091 Mb, Disk: 17 / 118 Gb, GMT+6
+0	14:21:27.455	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+0	14:21:32.097	'69763813': login on Exness-Trial8 through DC02 (ping: 521.64 ms)
+0	14:21:47.071	'69763813': login datacenter on Exness-Trial8 through DC02 (ping: 521.64 ms)
+0	14:21:49.536	'69763813': previous successful authorization performed from 103.124.53.72
+1	14:40:08.861	'69763813': ping failed
+1	14:40:08.932	'69763813': datacenter connecting failed [6]
+0	14:40:09.467	'69763813': login on Exness-Trial8 through DC03 (ping: 534.53 ms)
+0	14:40:10.632	'69763813': login datacenter on Exness-Trial8 through DC03 (ping: 534.53 ms)
+0	14:40:13.599	'69763813': previous successful authorization performed from 74.220.48.246
+0	14:55:22.423	Exness Technologies MT4 build 1455 stopped
+0	16:04:02.891	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	16:04:02.894	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 3446 / 8091 Mb, Disk: 17 / 118 Gb, GMT+6
+0	16:04:02.894	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+0	16:04:06.590	'69763813': login on Exness-Trial8 through DC03 (ping: 534.53 ms)
+0	16:04:07.714	'69763813': login datacenter on Exness-Trial8 through DC03 (ping: 534.53 ms)
+0	16:04:08.526	'69763813': previous successful authorization performed from 74.220.48.246
+0	16:04:13.454	'69763813': auto connecting to a better access point DC06 (ping is 87.39 ms)
+0	16:04:13.951	'69763813': login on Exness-Trial8 through DC06 (ping: 87.39 ms)
+0	16:04:14.859	'69763813': login datacenter on Exness-Trial8 through DC06 (ping: 87.39 ms)
+0	16:04:15.486	'69763813': previous successful authorization performed from 103.124.53.75
+1	16:04:39.834	MQL5.community: authorization failed
+0	16:04:40.271	Exness Technologies MT4 build 1455 stopped
+0	19:31:55.860	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	19:31:55.861	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 3273 / 8091 Mb, Disk: 17 / 118 Gb, GMT+6
+0	19:31:55.861	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+0	19:32:01.084	'69763813': login on Exness-Trial8 through DC06 (ping: 87.39 ms)
+0	19:32:01.999	'69763813': login datacenter on Exness-Trial8 through DC06 (ping: 87.39 ms)
+0	19:32:02.841	'69763813': previous successful authorization performed from 103.124.53.72
+0	19:32:07.783	'69763813': ping to current access point DC06 is 88.76 ms
+0	19:33:56.123	Sources recompilation started
+2	19:34:08.142	Expert EABiBot_Tick XAUUSD,H1: loaded successfully
+2	19:35:06.103	Expert EABiBot_Tick XAUUSD,H1: removed
+2	19:35:06.133	Expert EABiBot_Tick XAUUSD,H1: loaded successfully
+2	19:36:45.690	Expert EABiBot_Tick XAUUSD,H1: removed
+0	19:36:46.158	Exness Technologies MT4 build 1455 stopped
+0	19:36:49.647	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	19:36:49.648	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 2010 / 8091 Mb, Disk: 17 / 118 Gb, GMT+6
+0	19:36:49.648	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+2	19:36:51.354	Expert EABiBot_Tick XAUUSD,H1: loaded successfully
+0	19:36:53.343	'69763813': login on Exness-Trial8 through DC06 (ping: 88.76 ms)
+0	19:36:54.436	'69763813': login datacenter on Exness-Trial8 through DC06 (ping: 88.76 ms)
+0	19:36:55.248	'69763813': previous successful authorization performed from 103.124.53.75
+2	19:37:14.727	Expert EABiBot_Tick XAUUSD,H1: removed
+2	19:37:14.786	Expert EABiBot_Tick XAUUSD,M1: loaded successfully
+2	19:37:14.877	Custom indicator Magic_V_Binary_NoRepaint CADCHF-OTCq,M1: loaded successfully
+2	19:37:14.901	Custom indicator MT4_Advance_Connector CADCHF-OTCq,M1: loaded successfully
+2	19:37:16.541	Custom indicator Magic_V_Binary_NoRepaint EURAUD-OTCq,M1: loaded successfully
+2	19:37:16.560	Custom indicator MT4_Advance_Connector EURAUD-OTCq,M1: loaded successfully
+2	19:37:17.222	Custom indicator Magic_V_Binary_NoRepaint USDIDR-OTCq,M1: loaded successfully
+2	19:37:17.242	Custom indicator MT4_Advance_Connector USDIDR-OTCq,M1: loaded successfully
+2	19:37:17.920	Custom indicator Magic_V_Binary_NoRepaint USDCAD-OTCq,M1: loaded successfully
+2	19:37:17.944	Custom indicator MT4_Advance_Connector USDCAD-OTCq,M1: loaded successfully
+2	19:37:18.625	Custom indicator Magic_V_Binary_NoRepaint USDMXN-OTCq,M1: loaded successfully
+2	19:37:18.649	Custom indicator MT4_Advance_Connector USDMXN-OTCq,M1: loaded successfully
+2	19:37:19.258	Custom indicator Magic_V_Binary_NoRepaint USDTRY-OTCq,M1: loaded successfully
+2	19:37:19.281	Custom indicator MT4_Advance_Connector USDTRY-OTCq,M1: loaded successfully
+2	19:37:23.077	Custom indicator Magic_V_Binary_NoRepaint USDPKR-OTCq,M1: loaded successfully
+2	19:37:23.098	Custom indicator MT4_Advance_Connector USDPKR-OTCq,M1: loaded successfully
+2	19:37:23.714	Custom indicator Magic_V_Binary_NoRepaint AUDUSD-OTCq,M1: loaded successfully
+2	19:37:23.737	Custom indicator MT4_Advance_Connector AUDUSD-OTCq,M1: loaded successfully
+2	19:37:24.379	Custom indicator Magic_V_Binary_NoRepaint GBPCHF-OTCq,M1: loaded successfully
+2	19:37:24.404	Custom indicator MT4_Advance_Connector GBPCHF-OTCq,M1: loaded successfully
+2	19:37:25.043	Custom indicator Magic_V_Binary_NoRepaint EURCAD-OTCq,M1: loaded successfully
+2	19:37:25.065	Custom indicator MT4_Advance_Connector EURCAD-OTCq,M1: loaded successfully
+2	19:37:25.742	Custom indicator Magic_V_Binary_NoRepaint EURCHF-OTCq,M1: loaded successfully
+2	19:37:25.765	Custom indicator MT4_Advance_Connector EURCHF-OTCq,M1: loaded successfully
+2	19:37:29.570	Custom indicator Magic_V_Binary_NoRepaint CHFJPY-OTCq,M1: loaded successfully
+2	19:37:29.597	Custom indicator MT4_Advance_Connector CHFJPY-OTCq,M1: loaded successfully
+2	19:37:30.329	Custom indicator Magic_V_Binary_NoRepaint NZDUSD-OTCq,M1: loaded successfully
+2	19:37:30.351	Custom indicator MT4_Advance_Connector NZDUSD-OTCq,M1: loaded successfully
+2	19:37:31.136	Custom indicator Magic_V_Binary_NoRepaint EURNZD-OTCq,M1: loaded successfully
+2	19:37:31.161	Custom indicator MT4_Advance_Connector EURNZD-OTCq,M1: loaded successfully
+2	19:37:31.828	Custom indicator Magic_V_Binary_NoRepaint GBPJPY-OTCq,M1: loaded successfully
+2	19:37:31.852	Custom indicator MT4_Advance_Connector GBPJPY-OTCq,M1: loaded successfully
+2	19:37:32.480	Custom indicator Magic_V_Binary_NoRepaint USDNGN-OTCq,M1: loaded successfully
+2	19:37:32.504	Custom indicator MT4_Advance_Connector USDNGN-OTCq,M1: loaded successfully
+2	19:37:36.416	Custom indicator Magic_V_Binary_NoRepaint EURJPY-OTCq,M1: loaded successfully
+2	19:37:36.437	Custom indicator MT4_Advance_Connector EURJPY-OTCq,M1: loaded successfully
+2	19:37:37.067	Custom indicator Magic_V_Binary_NoRepaint EURGBP-OTCq,M1: loaded successfully
+2	19:37:37.088	Custom indicator MT4_Advance_Connector EURGBP-OTCq,M1: loaded successfully
+2	19:37:37.723	Custom indicator Magic_V_Binary_NoRepaint USDJPY-OTCq,M1: loaded successfully
+2	19:37:37.745	Custom indicator MT4_Advance_Connector USDJPY-OTCq,M1: loaded successfully
+2	19:37:38.374	Custom indicator Magic_V_Binary_NoRepaint USDINR-OTCq,M1: loaded successfully
+2	19:37:38.394	Custom indicator MT4_Advance_Connector USDINR-OTCq,M1: loaded successfully
+2	19:37:39.205	Custom indicator Magic_V_Binary_NoRepaint AUDJPY-OTCq,M1: loaded successfully
+2	19:37:39.225	Custom indicator MT4_Advance_Connector AUDJPY-OTCq,M1: loaded successfully
+2	19:37:39.825	Custom indicator Magic_V_Binary_NoRepaint USDEGP-OTCq,M1: loaded successfully
+2	19:37:39.848	Custom indicator MT4_Advance_Connector USDEGP-OTCq,M1: loaded successfully
+2	19:37:40.488	Custom indicator Magic_V_Binary_NoRepaint USDBDT-OTCq,M1: loaded successfully
+2	19:37:40.507	Custom indicator MT4_Advance_Connector USDBDT-OTCq,M1: loaded successfully
+2	19:37:41.120	Custom indicator Magic_V_Binary_NoRepaint USDCHF-OTCq,M1: loaded successfully
+2	19:37:41.141	Custom indicator MT4_Advance_Connector USDCHF-OTCq,M1: loaded successfully
+2	19:37:41.760	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: loaded successfully
+2	19:37:41.779	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: loaded successfully
+2	19:37:42.407	Custom indicator Magic_V_Binary_NoRepaint EURUSD-OTCq,M1: loaded successfully
+2	19:37:42.426	Custom indicator MT4_Advance_Connector EURUSD-OTCq,M1: loaded successfully
+2	19:37:43.049	Custom indicator Magic_V_Binary_NoRepaint NZDJPY-OTCq,M1: loaded successfully
+2	19:37:43.071	Custom indicator MT4_Advance_Connector NZDJPY-OTCq,M1: loaded successfully
+3	19:40:14.777	HistoryBase: invalid database header for 'EURNZD-OTCq1'
+3	19:40:17.377	HistoryBase: invalid database header for 'USDPKR-OTCq1'
+2	19:42:50.280	Expert EABiBot_Tick XAUUSD,M1: removed
+2	19:42:50.483	Custom indicator Magic_V_Binary_NoRepaint CADCHF-OTCq,M1: removed
+2	19:42:50.507	Custom indicator MT4_Advance_Connector CADCHF-OTCq,M1: removed
+2	19:42:50.689	Custom indicator Magic_V_Binary_NoRepaint EURAUD-OTCq,M1: removed
+2	19:42:50.694	Custom indicator MT4_Advance_Connector EURAUD-OTCq,M1: removed
+2	19:42:50.704	Custom indicator Magic_V_Binary_NoRepaint USDIDR-OTCq,M1: removed
+2	19:42:50.708	Custom indicator MT4_Advance_Connector USDIDR-OTCq,M1: removed
+2	19:42:50.719	Custom indicator Magic_V_Binary_NoRepaint USDCAD-OTCq,M1: removed
+2	19:42:50.723	Custom indicator MT4_Advance_Connector USDCAD-OTCq,M1: removed
+2	19:42:50.734	Custom indicator Magic_V_Binary_NoRepaint USDMXN-OTCq,M1: removed
+2	19:42:50.738	Custom indicator MT4_Advance_Connector USDMXN-OTCq,M1: removed
+2	19:42:50.791	Custom indicator Magic_V_Binary_NoRepaint USDTRY-OTCq,M1: removed
+2	19:42:50.794	Custom indicator MT4_Advance_Connector USDTRY-OTCq,M1: removed
+2	19:42:50.844	Custom indicator Magic_V_Binary_NoRepaint USDPKR-OTCq,M1: removed
+2	19:42:50.848	Custom indicator MT4_Advance_Connector USDPKR-OTCq,M1: removed
+2	19:42:50.858	Custom indicator Magic_V_Binary_NoRepaint AUDUSD-OTCq,M1: removed
+2	19:42:50.863	Custom indicator MT4_Advance_Connector AUDUSD-OTCq,M1: removed
+2	19:42:50.875	Custom indicator Magic_V_Binary_NoRepaint GBPCHF-OTCq,M1: removed
+2	19:42:50.879	Custom indicator MT4_Advance_Connector GBPCHF-OTCq,M1: removed
+2	19:42:50.889	Custom indicator Magic_V_Binary_NoRepaint EURCAD-OTCq,M1: removed
+2	19:42:50.894	Custom indicator MT4_Advance_Connector EURCAD-OTCq,M1: removed
+2	19:42:50.907	Custom indicator Magic_V_Binary_NoRepaint EURCHF-OTCq,M1: removed
+2	19:42:50.910	Custom indicator MT4_Advance_Connector EURCHF-OTCq,M1: removed
+2	19:42:50.920	Custom indicator Magic_V_Binary_NoRepaint CHFJPY-OTCq,M1: removed
+2	19:42:50.924	Custom indicator MT4_Advance_Connector CHFJPY-OTCq,M1: removed
+2	19:42:50.932	Custom indicator Magic_V_Binary_NoRepaint NZDUSD-OTCq,M1: removed
+2	19:42:50.934	Custom indicator MT4_Advance_Connector NZDUSD-OTCq,M1: removed
+2	19:42:50.943	Custom indicator Magic_V_Binary_NoRepaint EURNZD-OTCq,M1: removed
+2	19:42:50.947	Custom indicator MT4_Advance_Connector EURNZD-OTCq,M1: removed
+2	19:42:50.956	Custom indicator Magic_V_Binary_NoRepaint GBPJPY-OTCq,M1: removed
+2	19:42:50.961	Custom indicator MT4_Advance_Connector GBPJPY-OTCq,M1: removed
+2	19:42:50.969	Custom indicator Magic_V_Binary_NoRepaint USDNGN-OTCq,M1: removed
+2	19:42:50.973	Custom indicator MT4_Advance_Connector USDNGN-OTCq,M1: removed
+2	19:42:50.980	Custom indicator Magic_V_Binary_NoRepaint EURJPY-OTCq,M1: removed
+2	19:42:50.984	Custom indicator MT4_Advance_Connector EURJPY-OTCq,M1: removed
+2	19:42:50.994	Custom indicator Magic_V_Binary_NoRepaint EURGBP-OTCq,M1: removed
+2	19:42:50.996	Custom indicator MT4_Advance_Connector EURGBP-OTCq,M1: removed
+2	19:42:51.004	Custom indicator Magic_V_Binary_NoRepaint USDJPY-OTCq,M1: removed
+2	19:42:51.009	Custom indicator MT4_Advance_Connector USDJPY-OTCq,M1: removed
+2	19:42:51.016	Custom indicator Magic_V_Binary_NoRepaint USDINR-OTCq,M1: removed
+2	19:42:51.020	Custom indicator MT4_Advance_Connector USDINR-OTCq,M1: removed
+2	19:42:51.030	Custom indicator Magic_V_Binary_NoRepaint AUDJPY-OTCq,M1: removed
+2	19:42:51.032	Custom indicator MT4_Advance_Connector AUDJPY-OTCq,M1: removed
+2	19:42:51.042	Custom indicator Magic_V_Binary_NoRepaint USDEGP-OTCq,M1: removed
+2	19:42:51.045	Custom indicator MT4_Advance_Connector USDEGP-OTCq,M1: removed
+2	19:42:51.054	Custom indicator Magic_V_Binary_NoRepaint USDBDT-OTCq,M1: removed
+2	19:42:51.058	Custom indicator MT4_Advance_Connector USDBDT-OTCq,M1: removed
+2	19:42:51.070	Custom indicator Magic_V_Binary_NoRepaint USDCHF-OTCq,M1: removed
+2	19:42:51.072	Custom indicator MT4_Advance_Connector USDCHF-OTCq,M1: removed
+2	19:42:51.079	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: removed
+2	19:42:51.082	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: removed
+2	19:42:51.092	Custom indicator Magic_V_Binary_NoRepaint EURUSD-OTCq,M1: removed
+2	19:42:51.094	Custom indicator MT4_Advance_Connector EURUSD-OTCq,M1: removed
+2	19:42:51.112	Custom indicator Magic_V_Binary_NoRepaint NZDJPY-OTCq,M1: removed
+2	19:42:51.117	Custom indicator MT4_Advance_Connector NZDJPY-OTCq,M1: removed
+0	19:42:51.652	Exness Technologies MT4 build 1455 stopped
+0	19:43:09.224	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	19:43:09.226	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 1726 / 8091 Mb, Disk: 17 / 118 Gb, GMT+6
+0	19:43:09.226	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+2	19:43:10.880	Expert EABiBot_Tick XAUUSD,M1: loaded successfully
+2	19:43:10.924	Custom indicator Magic_V_Binary_NoRepaint CADCHF-OTCq,M1: loaded successfully
+2	19:43:10.943	Custom indicator MT4_Advance_Connector CADCHF-OTCq,M1: loaded successfully
+2	19:43:12.494	Custom indicator Magic_V_Binary_NoRepaint EURAUD-OTCq,M1: loaded successfully
+2	19:43:12.516	Custom indicator MT4_Advance_Connector EURAUD-OTCq,M1: loaded successfully
+2	19:43:13.231	Custom indicator Magic_V_Binary_NoRepaint USDIDR-OTCq,M1: loaded successfully
+2	19:43:13.253	Custom indicator MT4_Advance_Connector USDIDR-OTCq,M1: loaded successfully
+2	19:43:13.970	Custom indicator Magic_V_Binary_NoRepaint USDCAD-OTCq,M1: loaded successfully
+2	19:43:13.990	Custom indicator MT4_Advance_Connector USDCAD-OTCq,M1: loaded successfully
+2	19:43:14.617	Custom indicator Magic_V_Binary_NoRepaint USDMXN-OTCq,M1: loaded successfully
+2	19:43:14.636	Custom indicator MT4_Advance_Connector USDMXN-OTCq,M1: loaded successfully
+2	19:43:15.304	Custom indicator Magic_V_Binary_NoRepaint USDTRY-OTCq,M1: loaded successfully
+2	19:43:15.327	Custom indicator MT4_Advance_Connector USDTRY-OTCq,M1: loaded successfully
+2	19:43:19.137	Custom indicator Magic_V_Binary_NoRepaint USDPKR-OTCq,M1: loaded successfully
+2	19:43:19.160	Custom indicator MT4_Advance_Connector USDPKR-OTCq,M1: loaded successfully
+2	19:43:19.808	Custom indicator Magic_V_Binary_NoRepaint AUDUSD-OTCq,M1: loaded successfully
+2	19:43:19.829	Custom indicator MT4_Advance_Connector AUDUSD-OTCq,M1: loaded successfully
+2	19:43:20.492	Custom indicator Magic_V_Binary_NoRepaint GBPCHF-OTCq,M1: loaded successfully
+2	19:43:20.511	Custom indicator MT4_Advance_Connector GBPCHF-OTCq,M1: loaded successfully
+2	19:43:21.162	Custom indicator Magic_V_Binary_NoRepaint EURCAD-OTCq,M1: loaded successfully
+2	19:43:21.186	Custom indicator MT4_Advance_Connector EURCAD-OTCq,M1: loaded successfully
+2	19:43:21.836	Custom indicator Magic_V_Binary_NoRepaint EURCHF-OTCq,M1: loaded successfully
+2	19:43:21.855	Custom indicator MT4_Advance_Connector EURCHF-OTCq,M1: loaded successfully
+2	19:43:25.704	Custom indicator Magic_V_Binary_NoRepaint CHFJPY-OTCq,M1: loaded successfully
+2	19:43:25.728	Custom indicator MT4_Advance_Connector CHFJPY-OTCq,M1: loaded successfully
+2	19:43:26.382	Custom indicator Magic_V_Binary_NoRepaint NZDUSD-OTCq,M1: loaded successfully
+2	19:43:26.401	Custom indicator MT4_Advance_Connector NZDUSD-OTCq,M1: loaded successfully
+2	19:43:27.066	Custom indicator Magic_V_Binary_NoRepaint EURNZD-OTCq,M1: loaded successfully
+2	19:43:27.084	Custom indicator MT4_Advance_Connector EURNZD-OTCq,M1: loaded successfully
+2	19:43:27.755	Custom indicator Magic_V_Binary_NoRepaint GBPJPY-OTCq,M1: loaded successfully
+2	19:43:27.774	Custom indicator MT4_Advance_Connector GBPJPY-OTCq,M1: loaded successfully
+2	19:43:28.455	Custom indicator Magic_V_Binary_NoRepaint USDNGN-OTCq,M1: loaded successfully
+2	19:43:28.479	Custom indicator MT4_Advance_Connector USDNGN-OTCq,M1: loaded successfully
+2	19:43:32.390	Custom indicator Magic_V_Binary_NoRepaint EURJPY-OTCq,M1: loaded successfully
+2	19:43:32.423	Custom indicator MT4_Advance_Connector EURJPY-OTCq,M1: loaded successfully
+2	19:43:33.435	Custom indicator Magic_V_Binary_NoRepaint EURGBP-OTCq,M1: loaded successfully
+2	19:43:33.487	Custom indicator MT4_Advance_Connector EURGBP-OTCq,M1: loaded successfully
+2	19:43:34.237	Custom indicator Magic_V_Binary_NoRepaint USDJPY-OTCq,M1: loaded successfully
+2	19:43:34.257	Custom indicator MT4_Advance_Connector USDJPY-OTCq,M1: loaded successfully
+2	19:43:35.854	Custom indicator Magic_V_Binary_NoRepaint USDINR-OTCq,M1: loaded successfully
+2	19:43:35.877	Custom indicator MT4_Advance_Connector USDINR-OTCq,M1: loaded successfully
+2	19:43:39.718	Custom indicator Magic_V_Binary_NoRepaint AUDJPY-OTCq,M1: loaded successfully
+2	19:43:39.738	Custom indicator MT4_Advance_Connector AUDJPY-OTCq,M1: loaded successfully
+2	19:43:41.083	Custom indicator Magic_V_Binary_NoRepaint USDEGP-OTCq,M1: loaded successfully
+2	19:43:41.148	Custom indicator MT4_Advance_Connector USDEGP-OTCq,M1: loaded successfully
+2	19:43:41.932	Custom indicator Magic_V_Binary_NoRepaint USDBDT-OTCq,M1: loaded successfully
+2	19:43:41.954	Custom indicator MT4_Advance_Connector USDBDT-OTCq,M1: loaded successfully
+2	19:43:42.691	Custom indicator Magic_V_Binary_NoRepaint USDCHF-OTCq,M1: loaded successfully
+2	19:43:42.716	Custom indicator MT4_Advance_Connector USDCHF-OTCq,M1: loaded successfully
+2	19:43:46.684	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: loaded successfully
+2	19:43:46.703	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: loaded successfully
+2	19:43:47.404	Custom indicator Magic_V_Binary_NoRepaint EURUSD-OTCq,M1: loaded successfully
+2	19:43:47.426	Custom indicator MT4_Advance_Connector EURUSD-OTCq,M1: loaded successfully
+2	19:43:48.147	Custom indicator Magic_V_Binary_NoRepaint NZDJPY-OTCq,M1: loaded successfully
+2	19:43:48.178	Custom indicator MT4_Advance_Connector NZDJPY-OTCq,M1: loaded successfully
+0	19:43:53.962	'69763813': login on Exness-Trial8 through DC06 (ping: 88.76 ms)
+0	19:43:54.902	'69763813': login datacenter on Exness-Trial8 through DC06 (ping: 88.76 ms)
+0	19:43:55.731	'69763813': previous successful authorization performed from 103.124.53.75
+3	19:44:58.400	Terminate execution thread #13156
+2	19:44:58.864	Expert EABiBot_Tick XAUUSD,M1: removed
+2	19:44:58.959	Custom indicator Magic_V_Binary_NoRepaint CADCHF-OTCq,M1: removed
+2	19:44:58.964	Custom indicator MT4_Advance_Connector CADCHF-OTCq,M1: removed
+2	19:44:59.024	Custom indicator Magic_V_Binary_NoRepaint EURAUD-OTCq,M1: removed
+2	19:44:59.027	Custom indicator MT4_Advance_Connector EURAUD-OTCq,M1: removed
+2	19:44:59.034	Custom indicator Magic_V_Binary_NoRepaint USDIDR-OTCq,M1: removed
+2	19:44:59.037	Custom indicator MT4_Advance_Connector USDIDR-OTCq,M1: removed
+2	19:44:59.045	Custom indicator Magic_V_Binary_NoRepaint USDCAD-OTCq,M1: removed
+2	19:44:59.048	Custom indicator MT4_Advance_Connector USDCAD-OTCq,M1: removed
+2	19:44:59.055	Custom indicator Magic_V_Binary_NoRepaint USDMXN-OTCq,M1: removed
+2	19:44:59.058	Custom indicator MT4_Advance_Connector USDMXN-OTCq,M1: removed
+2	19:44:59.104	Custom indicator Magic_V_Binary_NoRepaint USDTRY-OTCq,M1: removed
+2	19:44:59.111	Custom indicator MT4_Advance_Connector USDTRY-OTCq,M1: removed
+2	19:44:59.156	Custom indicator Magic_V_Binary_NoRepaint USDPKR-OTCq,M1: removed
+2	19:44:59.160	Custom indicator MT4_Advance_Connector USDPKR-OTCq,M1: removed
+2	19:44:59.167	Custom indicator Magic_V_Binary_NoRepaint AUDUSD-OTCq,M1: removed
+2	19:44:59.170	Custom indicator MT4_Advance_Connector AUDUSD-OTCq,M1: removed
+2	19:44:59.179	Custom indicator Magic_V_Binary_NoRepaint GBPCHF-OTCq,M1: removed
+2	19:44:59.183	Custom indicator MT4_Advance_Connector GBPCHF-OTCq,M1: removed
+2	19:44:59.192	Custom indicator Magic_V_Binary_NoRepaint EURCAD-OTCq,M1: removed
+2	19:44:59.195	Custom indicator MT4_Advance_Connector EURCAD-OTCq,M1: removed
+2	19:44:59.204	Custom indicator Magic_V_Binary_NoRepaint EURCHF-OTCq,M1: removed
+2	19:44:59.209	Custom indicator MT4_Advance_Connector EURCHF-OTCq,M1: removed
+2	19:44:59.217	Custom indicator Magic_V_Binary_NoRepaint CHFJPY-OTCq,M1: removed
+2	19:44:59.222	Custom indicator MT4_Advance_Connector CHFJPY-OTCq,M1: removed
+2	19:44:59.230	Custom indicator Magic_V_Binary_NoRepaint NZDUSD-OTCq,M1: removed
+2	19:44:59.234	Custom indicator MT4_Advance_Connector NZDUSD-OTCq,M1: removed
+2	19:44:59.241	Custom indicator Magic_V_Binary_NoRepaint EURNZD-OTCq,M1: removed
+2	19:44:59.244	Custom indicator MT4_Advance_Connector EURNZD-OTCq,M1: removed
+2	19:44:59.252	Custom indicator Magic_V_Binary_NoRepaint GBPJPY-OTCq,M1: removed
+2	19:44:59.255	Custom indicator MT4_Advance_Connector GBPJPY-OTCq,M1: removed
+2	19:44:59.261	Custom indicator Magic_V_Binary_NoRepaint USDNGN-OTCq,M1: removed
+2	19:44:59.266	Custom indicator MT4_Advance_Connector USDNGN-OTCq,M1: removed
+2	19:44:59.277	Custom indicator Magic_V_Binary_NoRepaint EURJPY-OTCq,M1: removed
+2	19:44:59.282	Custom indicator MT4_Advance_Connector EURJPY-OTCq,M1: removed
+2	19:44:59.290	Custom indicator Magic_V_Binary_NoRepaint EURGBP-OTCq,M1: removed
+2	19:44:59.294	Custom indicator MT4_Advance_Connector EURGBP-OTCq,M1: removed
+2	19:44:59.301	Custom indicator Magic_V_Binary_NoRepaint USDJPY-OTCq,M1: removed
+2	19:44:59.304	Custom indicator MT4_Advance_Connector USDJPY-OTCq,M1: removed
+2	19:44:59.312	Custom indicator Magic_V_Binary_NoRepaint USDINR-OTCq,M1: removed
+2	19:44:59.315	Custom indicator MT4_Advance_Connector USDINR-OTCq,M1: removed
+2	19:44:59.323	Custom indicator Magic_V_Binary_NoRepaint AUDJPY-OTCq,M1: removed
+2	19:44:59.328	Custom indicator MT4_Advance_Connector AUDJPY-OTCq,M1: removed
+2	19:44:59.334	Custom indicator Magic_V_Binary_NoRepaint USDEGP-OTCq,M1: removed
+2	19:44:59.338	Custom indicator MT4_Advance_Connector USDEGP-OTCq,M1: removed
+2	19:44:59.346	Custom indicator Magic_V_Binary_NoRepaint USDBDT-OTCq,M1: removed
+2	19:44:59.349	Custom indicator MT4_Advance_Connector USDBDT-OTCq,M1: removed
+2	19:44:59.355	Custom indicator Magic_V_Binary_NoRepaint USDCHF-OTCq,M1: removed
+2	19:44:59.359	Custom indicator MT4_Advance_Connector USDCHF-OTCq,M1: removed
+2	19:44:59.367	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: removed
+2	19:44:59.370	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: removed
+2	19:44:59.378	Custom indicator Magic_V_Binary_NoRepaint EURUSD-OTCq,M1: removed
+2	19:44:59.381	Custom indicator MT4_Advance_Connector EURUSD-OTCq,M1: removed
+2	19:44:59.396	Custom indicator Magic_V_Binary_NoRepaint NZDJPY-OTCq,M1: removed
+2	19:44:59.400	Custom indicator MT4_Advance_Connector NZDJPY-OTCq,M1: removed
+0	19:44:59.796	Exness Technologies MT4 build 1455 stopped
