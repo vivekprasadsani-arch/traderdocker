@@ -1089,3 +1089,74 @@
 2	20:59:39.134	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: removed
 2	20:59:39.139	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: removed
 0	20:59:39.808	Exness Technologies MT4 build 1455 stopped
+0	21:08:14.757	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	21:08:14.758	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 1436 / 8091 Mb, Disk: 20 / 118 Gb, GMT+6
+0	21:08:14.758	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+2	21:08:16.850	Expert EABiBot_Tick XAUUSD,M1: loaded successfully
+2	21:08:16.953	Custom indicator Magic_V_Binary_NoRepaint CADCHF-OTCq,M1: loaded successfully
+2	21:08:16.994	Custom indicator MT4_Advance_Connector CADCHF-OTCq,M1: loaded successfully
+2	21:08:17.261	Custom indicator Magic_V_Binary_NoRepaint USDIDR-OTCq,M1: loaded successfully
+2	21:08:17.281	Custom indicator MT4_Advance_Connector USDIDR-OTCq,M1: loaded successfully
+2	21:08:17.525	Custom indicator Magic_V_Binary_NoRepaint USDTRY-OTCq,M1: loaded successfully
+2	21:08:17.545	Custom indicator MT4_Advance_Connector USDTRY-OTCq,M1: loaded successfully
+2	21:08:17.741	Custom indicator Magic_V_Binary_NoRepaint USDPKR-OTCq,M1: loaded successfully
+2	21:08:17.762	Custom indicator MT4_Advance_Connector USDPKR-OTCq,M1: loaded successfully
+2	21:08:17.980	Custom indicator Magic_V_Binary_NoRepaint EURCAD-OTCq,M1: loaded successfully
+2	21:08:18.001	Custom indicator MT4_Advance_Connector EURCAD-OTCq,M1: loaded successfully
+2	21:08:18.207	Custom indicator Magic_V_Binary_NoRepaint EURNZD-OTCq,M1: loaded successfully
+2	21:08:18.225	Custom indicator MT4_Advance_Connector EURNZD-OTCq,M1: loaded successfully
+2	21:08:18.453	Custom indicator Magic_V_Binary_NoRepaint EURJPY-OTCq,M1: loaded successfully
+2	21:08:18.483	Custom indicator MT4_Advance_Connector EURJPY-OTCq,M1: loaded successfully
+2	21:08:18.702	Custom indicator Magic_V_Binary_NoRepaint USDINR-OTCq,M1: loaded successfully
+2	21:08:18.721	Custom indicator MT4_Advance_Connector USDINR-OTCq,M1: loaded successfully
+2	21:08:18.959	Custom indicator Magic_V_Binary_NoRepaint USDEGP-OTCq,M1: loaded successfully
+2	21:08:18.988	Custom indicator MT4_Advance_Connector USDEGP-OTCq,M1: loaded successfully
+2	21:08:19.257	Custom indicator Magic_V_Binary_NoRepaint USDBDT-OTCq,M1: loaded successfully
+2	21:08:19.278	Custom indicator MT4_Advance_Connector USDBDT-OTCq,M1: loaded successfully
+2	21:08:19.517	Custom indicator Magic_V_Binary_NoRepaint USDCHF-OTCq,M1: loaded successfully
+2	21:08:19.548	Custom indicator MT4_Advance_Connector USDCHF-OTCq,M1: loaded successfully
+2	21:08:19.832	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: loaded successfully
+2	21:08:19.854	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: loaded successfully
+0	21:08:23.232	'69763813': login on Exness-Trial8 through DC06 (ping: 86.81 ms)
+0	21:08:24.189	'69763813': login datacenter on Exness-Trial8 through DC06 (ping: 86.81 ms)
+0	21:08:24.978	'69763813': previous successful authorization performed from 103.124.53.75
+2	21:08:29.371	Custom indicator Magic_V_Binary_NoRepaint CADCHF-OTCq,M1: removed
+2	21:08:29.375	Custom indicator MT4_Advance_Connector CADCHF-OTCq,M1: removed
+2	21:08:30.919	Custom indicator Magic_V_Binary_NoRepaint USDIDR-OTCq,M1: removed
+2	21:08:30.923	Custom indicator MT4_Advance_Connector USDIDR-OTCq,M1: removed
+2	21:08:33.230	Custom indicator Magic_V_Binary_NoRepaint USDTRY-OTCq,M1: removed
+2	21:08:33.233	Custom indicator MT4_Advance_Connector USDTRY-OTCq,M1: removed
+2	21:08:34.783	Custom indicator Magic_V_Binary_NoRepaint USDPKR-OTCq,M1: removed
+2	21:08:34.787	Custom indicator MT4_Advance_Connector USDPKR-OTCq,M1: removed
+2	21:08:36.101	Custom indicator Magic_V_Binary_NoRepaint EURCAD-OTCq,M1: removed
+2	21:08:36.105	Custom indicator MT4_Advance_Connector EURCAD-OTCq,M1: removed
+2	21:08:37.559	Custom indicator Magic_V_Binary_NoRepaint EURNZD-OTCq,M1: removed
+2	21:08:37.562	Custom indicator MT4_Advance_Connector EURNZD-OTCq,M1: removed
+2	21:08:39.087	Custom indicator Magic_V_Binary_NoRepaint EURJPY-OTCq,M1: removed
+2	21:08:39.091	Custom indicator MT4_Advance_Connector EURJPY-OTCq,M1: removed
+2	21:08:40.433	Custom indicator Magic_V_Binary_NoRepaint USDINR-OTCq,M1: removed
+2	21:08:40.438	Custom indicator MT4_Advance_Connector USDINR-OTCq,M1: removed
+2	21:08:41.621	Custom indicator Magic_V_Binary_NoRepaint USDEGP-OTCq,M1: removed
+2	21:08:41.626	Custom indicator MT4_Advance_Connector USDEGP-OTCq,M1: removed
+2	21:08:43.514	Custom indicator Magic_V_Binary_NoRepaint USDBDT-OTCq,M1: removed
+2	21:08:43.519	Custom indicator MT4_Advance_Connector USDBDT-OTCq,M1: removed
+2	21:08:45.032	Custom indicator Magic_V_Binary_NoRepaint USDCHF-OTCq,M1: removed
+2	21:08:45.035	Custom indicator MT4_Advance_Connector USDCHF-OTCq,M1: removed
+2	21:09:07.734	Expert EABiBot_Tick XAUUSD,M1: removed
+2	21:09:07.831	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: removed
+2	21:09:07.837	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: removed
+0	21:09:08.358	Exness Technologies MT4 build 1455 stopped
+0	21:09:10.562	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	21:09:10.563	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 1582 / 8091 Mb, Disk: 20 / 118 Gb, GMT+6
+0	21:09:10.563	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+2	21:09:12.198	Expert EABiBot_Tick XAUUSD,M1: loaded successfully
+2	21:09:12.247	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: loaded successfully
+2	21:09:12.271	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: loaded successfully
+0	21:09:14.228	'69763813': login on Exness-Trial8 through DC06 (ping: 86.81 ms)
+0	21:09:15.350	'69763813': login datacenter on Exness-Trial8 through DC06 (ping: 86.81 ms)
+0	21:09:16.150	'69763813': previous successful authorization performed from 103.124.53.75
+2	21:09:28.787	Expert EABiBot_Tick XAUUSD,M1: removed
+2	21:09:28.860	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: removed
+2	21:09:28.865	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: removed
+1	21:09:29.350	MQL5.community: authorization failed
+0	21:09:29.522	Exness Technologies MT4 build 1455 stopped
