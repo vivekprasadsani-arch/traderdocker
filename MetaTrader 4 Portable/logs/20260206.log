@@ -965,3 +965,127 @@
 2	20:21:15.172	Custom indicator Magic_V_Binary_NoRepaint EURUSD-OTCq,M1: removed
 2	20:21:15.178	Custom indicator MT4_Advance_Connector EURUSD-OTCq,M1: removed
 0	20:21:15.628	Exness Technologies MT4 build 1455 stopped
+0	20:39:52.037	Exness Technologies MT4 build 1455 started (Exness Technologies Ltd)
+0	20:39:52.039	Windows 10 Pro x64, UAC, 4 x Intel Core i3-5010U  @ 2.10GHz, Memory: 2213 / 8091 Mb, Disk: 20 / 118 Gb, GMT+6
+0	20:39:52.039	Data Folder: C:\Users\Roni\AppData\Roaming\MetaQuotes\Terminal\98F395CF73AD69F227DB1EBF12404B1F
+2	20:39:54.459	Expert EABiBot_Tick XAUUSD,M1: loaded successfully
+2	20:39:54.556	Custom indicator Magic_V_Binary_NoRepaint CADCHF-OTCq,M1: loaded successfully
+2	20:39:54.587	Custom indicator MT4_Advance_Connector CADCHF-OTCq,M1: loaded successfully
+2	20:39:54.881	Custom indicator Magic_V_Binary_NoRepaint EURAUD-OTCq,M1: loaded successfully
+2	20:39:54.903	Custom indicator MT4_Advance_Connector EURAUD-OTCq,M1: loaded successfully
+2	20:39:55.109	Custom indicator Magic_V_Binary_NoRepaint USDIDR-OTCq,M1: loaded successfully
+2	20:39:55.127	Custom indicator MT4_Advance_Connector USDIDR-OTCq,M1: loaded successfully
+2	20:39:55.397	Custom indicator Magic_V_Binary_NoRepaint USDMXN-OTCq,M1: loaded successfully
+2	20:39:55.423	Custom indicator MT4_Advance_Connector USDMXN-OTCq,M1: loaded successfully
+2	20:39:55.717	Custom indicator Magic_V_Binary_NoRepaint USDTRY-OTCq,M1: loaded successfully
+2	20:39:55.746	Custom indicator MT4_Advance_Connector USDTRY-OTCq,M1: loaded successfully
+2	20:39:55.958	Custom indicator Magic_V_Binary_NoRepaint USDPKR-OTCq,M1: loaded successfully
+2	20:39:55.979	Custom indicator MT4_Advance_Connector USDPKR-OTCq,M1: loaded successfully
+2	20:39:56.204	Custom indicator Magic_V_Binary_NoRepaint AUDUSD-OTCq,M1: loaded successfully
+2	20:39:56.225	Custom indicator MT4_Advance_Connector AUDUSD-OTCq,M1: loaded successfully
+2	20:39:56.434	Custom indicator Magic_V_Binary_NoRepaint EURCAD-OTCq,M1: loaded successfully
+2	20:39:56.458	Custom indicator MT4_Advance_Connector EURCAD-OTCq,M1: loaded successfully
+2	20:39:56.669	Custom indicator Magic_V_Binary_NoRepaint CHFJPY-OTCq,M1: loaded successfully
+2	20:39:56.690	Custom indicator MT4_Advance_Connector CHFJPY-OTCq,M1: loaded successfully
+2	20:39:56.930	Custom indicator Magic_V_Binary_NoRepaint EURNZD-OTCq,M1: loaded successfully
+2	20:39:56.949	Custom indicator MT4_Advance_Connector EURNZD-OTCq,M1: loaded successfully
+2	20:39:57.154	Custom indicator Magic_V_Binary_NoRepaint USDNGN-OTCq,M1: loaded successfully
+2	20:39:57.177	Custom indicator MT4_Advance_Connector USDNGN-OTCq,M1: loaded successfully
+2	20:39:57.384	Custom indicator Magic_V_Binary_NoRepaint EURJPY-OTCq,M1: loaded successfully
+2	20:39:57.404	Custom indicator MT4_Advance_Connector EURJPY-OTCq,M1: loaded successfully
+2	20:39:57.640	Custom indicator Magic_V_Binary_NoRepaint USDINR-OTCq,M1: loaded successfully
+2	20:39:57.661	Custom indicator MT4_Advance_Connector USDINR-OTCq,M1: loaded successfully
+2	20:39:57.893	Custom indicator Magic_V_Binary_NoRepaint AUDJPY-OTCq,M1: loaded successfully
+2	20:39:57.917	Custom indicator MT4_Advance_Connector AUDJPY-OTCq,M1: loaded successfully
+2	20:39:58.124	Custom indicator Magic_V_Binary_NoRepaint USDEGP-OTCq,M1: loaded successfully
+2	20:39:58.143	Custom indicator MT4_Advance_Connector USDEGP-OTCq,M1: loaded successfully
+2	20:39:58.356	Custom indicator Magic_V_Binary_NoRepaint USDBDT-OTCq,M1: loaded successfully
+2	20:39:58.377	Custom indicator MT4_Advance_Connector USDBDT-OTCq,M1: loaded successfully
+2	20:39:58.590	Custom indicator Magic_V_Binary_NoRepaint USDCHF-OTCq,M1: loaded successfully
+2	20:39:58.616	Custom indicator MT4_Advance_Connector USDCHF-OTCq,M1: loaded successfully
+2	20:39:58.830	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: loaded successfully
+2	20:39:58.850	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: loaded successfully
+2	20:39:59.095	Custom indicator Magic_V_Binary_NoRepaint EURUSD-OTCq,M1: loaded successfully
+2	20:39:59.117	Custom indicator MT4_Advance_Connector EURUSD-OTCq,M1: loaded successfully
+0	20:40:03.244	'69763813': login on Exness-Trial8 through DC06 (ping: 88.76 ms)
+0	20:40:04.301	'69763813': login datacenter on Exness-Trial8 through DC06 (ping: 88.76 ms)
+0	20:40:05.195	'69763813': previous successful authorization performed from 103.124.53.75
+0	20:40:11.172	'69763813': ping to current access point DC06 is 86.81 ms
+2	20:45:49.473	Custom indicator MT4_Advance_Connector CADCHF-OTCq,M1: removed
+2	20:45:49.497	Custom indicator MT4_Advance_Connector CADCHF-OTCq,M1: loaded successfully
+2	20:45:49.598	Custom indicator MT4_Advance_Connector EURAUD-OTCq,M1: removed
+2	20:45:49.617	Custom indicator MT4_Advance_Connector EURAUD-OTCq,M1: loaded successfully
+2	20:45:49.764	Custom indicator MT4_Advance_Connector USDIDR-OTCq,M1: removed
+2	20:45:49.783	Custom indicator MT4_Advance_Connector USDIDR-OTCq,M1: loaded successfully
+2	20:45:49.885	Custom indicator MT4_Advance_Connector USDMXN-OTCq,M1: removed
+2	20:45:49.904	Custom indicator MT4_Advance_Connector USDMXN-OTCq,M1: loaded successfully
+2	20:45:50.005	Custom indicator MT4_Advance_Connector USDTRY-OTCq,M1: removed
+2	20:45:50.024	Custom indicator MT4_Advance_Connector USDTRY-OTCq,M1: loaded successfully
+2	20:45:50.125	Custom indicator MT4_Advance_Connector USDPKR-OTCq,M1: removed
+2	20:45:50.150	Custom indicator MT4_Advance_Connector USDPKR-OTCq,M1: loaded successfully
+2	20:45:50.275	Custom indicator MT4_Advance_Connector AUDUSD-OTCq,M1: removed
+2	20:45:50.294	Custom indicator MT4_Advance_Connector AUDUSD-OTCq,M1: loaded successfully
+2	20:45:50.397	Custom indicator MT4_Advance_Connector EURCAD-OTCq,M1: removed
+2	20:45:50.416	Custom indicator MT4_Advance_Connector EURCAD-OTCq,M1: loaded successfully
+2	20:45:50.527	Custom indicator MT4_Advance_Connector CHFJPY-OTCq,M1: removed
+2	20:45:50.546	Custom indicator MT4_Advance_Connector CHFJPY-OTCq,M1: loaded successfully
+2	20:45:50.645	Custom indicator MT4_Advance_Connector EURNZD-OTCq,M1: removed
+2	20:45:50.662	Custom indicator MT4_Advance_Connector EURNZD-OTCq,M1: loaded successfully
+2	20:45:50.774	Custom indicator MT4_Advance_Connector USDNGN-OTCq,M1: removed
+2	20:45:50.798	Custom indicator MT4_Advance_Connector USDNGN-OTCq,M1: loaded successfully
+2	20:45:50.901	Custom indicator MT4_Advance_Connector EURJPY-OTCq,M1: removed
+2	20:45:50.918	Custom indicator MT4_Advance_Connector EURJPY-OTCq,M1: loaded successfully
+2	20:45:51.020	Custom indicator MT4_Advance_Connector USDINR-OTCq,M1: removed
+2	20:45:51.039	Custom indicator MT4_Advance_Connector USDINR-OTCq,M1: loaded successfully
+2	20:45:51.140	Custom indicator MT4_Advance_Connector AUDJPY-OTCq,M1: removed
+2	20:45:51.159	Custom indicator MT4_Advance_Connector AUDJPY-OTCq,M1: loaded successfully
+2	20:45:51.279	Custom indicator MT4_Advance_Connector USDEGP-OTCq,M1: removed
+2	20:45:51.302	Custom indicator MT4_Advance_Connector USDEGP-OTCq,M1: loaded successfully
+2	20:45:51.407	Custom indicator MT4_Advance_Connector USDBDT-OTCq,M1: removed
+2	20:45:51.425	Custom indicator MT4_Advance_Connector USDBDT-OTCq,M1: loaded successfully
+2	20:45:51.528	Custom indicator MT4_Advance_Connector USDCHF-OTCq,M1: removed
+2	20:45:51.548	Custom indicator MT4_Advance_Connector USDCHF-OTCq,M1: loaded successfully
+2	20:45:51.657	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: removed
+2	20:45:51.676	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: loaded successfully
+2	20:45:51.774	Custom indicator MT4_Advance_Connector EURUSD-OTCq,M1: removed
+2	20:45:51.794	Custom indicator MT4_Advance_Connector EURUSD-OTCq,M1: loaded successfully
+2	20:55:34.686	Custom indicator Magic_V_Binary_NoRepaint USDMXN-OTCq,M1: removed
+2	20:55:34.689	Custom indicator MT4_Advance_Connector USDMXN-OTCq,M1: removed
+2	20:55:43.506	Custom indicator Magic_V_Binary_NoRepaint AUDUSD-OTCq,M1: removed
+2	20:55:43.509	Custom indicator MT4_Advance_Connector AUDUSD-OTCq,M1: removed
+2	20:55:53.327	Custom indicator Magic_V_Binary_NoRepaint CHFJPY-OTCq,M1: removed
+2	20:55:53.330	Custom indicator MT4_Advance_Connector CHFJPY-OTCq,M1: removed
+2	20:56:00.049	Custom indicator Magic_V_Binary_NoRepaint USDNGN-OTCq,M1: removed
+2	20:56:00.052	Custom indicator MT4_Advance_Connector USDNGN-OTCq,M1: removed
+2	20:56:27.605	Custom indicator Magic_V_Binary_NoRepaint EURUSD-OTCq,M1: removed
+2	20:56:27.607	Custom indicator MT4_Advance_Connector EURUSD-OTCq,M1: removed
+2	20:56:37.064	Custom indicator Magic_V_Binary_NoRepaint AUDJPY-OTCq,M1: removed
+2	20:56:37.067	Custom indicator MT4_Advance_Connector AUDJPY-OTCq,M1: removed
+2	20:57:01.559	Custom indicator Magic_V_Binary_NoRepaint EURAUD-OTCq,M1: removed
+2	20:57:01.562	Custom indicator MT4_Advance_Connector EURAUD-OTCq,M1: removed
+2	20:59:38.554	Expert EABiBot_Tick XAUUSD,M1: removed
+2	20:59:38.604	Custom indicator Magic_V_Binary_NoRepaint CADCHF-OTCq,M1: removed
+2	20:59:38.608	Custom indicator MT4_Advance_Connector CADCHF-OTCq,M1: removed
+2	20:59:38.641	Custom indicator Magic_V_Binary_NoRepaint USDIDR-OTCq,M1: removed
+2	20:59:38.645	Custom indicator MT4_Advance_Connector USDIDR-OTCq,M1: removed
+2	20:59:38.681	Custom indicator Magic_V_Binary_NoRepaint USDTRY-OTCq,M1: removed
+2	20:59:38.684	Custom indicator MT4_Advance_Connector USDTRY-OTCq,M1: removed
+2	20:59:38.717	Custom indicator Magic_V_Binary_NoRepaint USDPKR-OTCq,M1: removed
+2	20:59:38.720	Custom indicator MT4_Advance_Connector USDPKR-OTCq,M1: removed
+2	20:59:38.753	Custom indicator Magic_V_Binary_NoRepaint EURCAD-OTCq,M1: removed
+2	20:59:38.755	Custom indicator MT4_Advance_Connector EURCAD-OTCq,M1: removed
+2	20:59:38.789	Custom indicator Magic_V_Binary_NoRepaint EURNZD-OTCq,M1: removed
+2	20:59:38.792	Custom indicator MT4_Advance_Connector EURNZD-OTCq,M1: removed
+2	20:59:38.830	Custom indicator Magic_V_Binary_NoRepaint EURJPY-OTCq,M1: removed
+2	20:59:38.835	Custom indicator MT4_Advance_Connector EURJPY-OTCq,M1: removed
+2	20:59:38.872	Custom indicator Magic_V_Binary_NoRepaint USDINR-OTCq,M1: removed
+2	20:59:38.877	Custom indicator MT4_Advance_Connector USDINR-OTCq,M1: removed
+2	20:59:38.980	Custom indicator Magic_V_Binary_NoRepaint USDEGP-OTCq,M1: removed
+2	20:59:38.989	Custom indicator MT4_Advance_Connector USDEGP-OTCq,M1: removed
+2	20:59:39.050	Custom indicator Magic_V_Binary_NoRepaint USDBDT-OTCq,M1: removed
+2	20:59:39.054	Custom indicator MT4_Advance_Connector USDBDT-OTCq,M1: removed
+2	20:59:39.101	Custom indicator Magic_V_Binary_NoRepaint USDCHF-OTCq,M1: removed
+2	20:59:39.104	Custom indicator MT4_Advance_Connector USDCHF-OTCq,M1: removed
+2	20:59:39.134	Custom indicator Magic_V_Binary_NoRepaint USDARS-OTCq,M1: removed
+2	20:59:39.139	Custom indicator MT4_Advance_Connector USDARS-OTCq,M1: removed
+0	20:59:39.808	Exness Technologies MT4 build 1455 stopped

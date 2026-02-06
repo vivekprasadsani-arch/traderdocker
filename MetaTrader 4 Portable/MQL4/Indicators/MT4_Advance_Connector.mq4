@@ -261,21 +261,33 @@ int OnCalculate(const int rates_total,
 // Check if enough bars
    if(rates_total < 10) return(0);
    
-   // Check time filter
-   if(TimeFilter_Enable && !IsWithinTradingHours()) {
-      return(rates_total);
+   // Check for expired signals and update results (MUST BE FIRST)
+   CheckSignalResults();
+   
+   // Process any pending screenshots (MUST BE FIRST)
+   ProcessPendingScreenshots();
+   
+   // Check Periodic Report
+   if(Report_Enable && TimeCurrent() - lastReportTime >= Report_Interval * 60) {
+       SendPeriodicReport();
+       lastReportTime = TimeCurrent();
    }
    
-   // Check global interval
-   if(TimeCurrent() - lastSignalTime < GlobalInterval_Seconds) {
+   // Check time filter
+   if(TimeFilter_Enable && !IsWithinTradingHours()) {
       return(rates_total);
    }
    
    // Static variable to track the last bar we alerted on
    static datetime lastAlertBar = 0;
    
-   // If we already alerted on this bar, skip (unless EntrySameCandle is true and we want multi-tick logic, but usually 1 signal per bar)
-   if(Time[0] == lastAlertBar) return(rates_total);
+   // Check global interval
+   if(TimeCurrent() - lastSignalTime < GlobalInterval_Seconds) {
+      return(rates_total);
+   }
+   
+   // If we already alerted on this bar, skip
+   if(TimeCurrent() - lastOrderTime > 5 && Time[0] == lastAlertBar) return(rates_total);
    
    // Detect signals from indicators
    string signal = DetectCombinedSignal();
@@ -288,19 +300,6 @@ int OnCalculate(const int rates_total,
    // Update statistics
    if(ShowStatistics) {
       UpdateDashboard();
-   }
-   
-   // Check for expired signals and update results
-   // Check for expired signals and update results
-   CheckSignalResults();
-   
-   // Process any pending screenshots (retry reading file)
-   ProcessPendingScreenshots();
-   
-   // Check Periodic Report
-   if(Report_Enable && TimeCurrent() - lastReportTime >= Report_Interval * 60) {
-       SendPeriodicReport();
-       lastReportTime = TimeCurrent();
    }
    
    return(rates_total);
@@ -379,11 +378,14 @@ string DetectCombinedSignal()
 //+------------------------------------------------------------------+
 void ProcessSignal(string direction)
 {
-   // 1. Check Global Trade Lock (New Feature)
+   // 1. Check Global Trade Lock with Safety Timeout (30 Mins)
    string lockVar = "MT4_CONN_ACTIVE_TRADE";
-   if(GlobalVariableCheck(lockVar) && GlobalVariableGet(lockVar) == 1.0) {
-      Print("Signal skipped: Another trade is currently active globally.");
-      return;
+   if(GlobalVariableCheck(lockVar)) {
+      datetime lockTime = (datetime)GlobalVariableGet(lockVar);
+      if(lockTime > 0 && TimeCurrent() - lockTime < 1800) { // 30 minutes timeout
+         Print("Signal skipped: Another trade is currently active globally.");
+         return;
+      }
    }
    
    // Check order interval
@@ -391,9 +393,9 @@ void ProcessSignal(string direction)
       return;
    }
    
-   // Set Global Lock
-   GlobalVariableSet(lockVar, 1.0);
-   Print("GLOBAL LOCK: Trade started. No other signals allowed until result.");
+   // Set Global Lock to current time
+   GlobalVariableSet(lockVar, (double)TimeCurrent());
+   Print("GLOBAL LOCK: Trade started. No other signals allowed for up to 30 mins.");
    
    // Create signal data
    SignalData newSignal;
@@ -857,6 +859,18 @@ void UpdateDashboard()
    
    color rateColor = winRate >= 70 ? clrLime : (winRate >= 50 ? clrYellow : clrRed);
    CreateLabel("CONNECTOR_Rate", x, y + lineHeight * 3, "Win Rate: " + DoubleToString(winRate, 1) + "%", "Arial Bold", 10, rateColor);
+
+   // Lock Status (New)
+   string lockStatus = "READY";
+   color lockColor = clrLime;
+   if(GlobalVariableCheck("MT4_CONN_ACTIVE_TRADE")) {
+       datetime lTime = (datetime)GlobalVariableGet("MT4_CONN_ACTIVE_TRADE");
+       if(lTime > 0 && TimeCurrent() - lTime < 1800) {
+           lockStatus = "BUSY (" + Symbol() + ")";
+           lockColor = clrYellow;
+       }
+   }
+   CreateLabel("CONNECTOR_Lock", x, y + lineHeight * 4, "STATUS: " + lockStatus, "Arial Bold", 9, lockColor);
 }
 
 //+------------------------------------------------------------------+

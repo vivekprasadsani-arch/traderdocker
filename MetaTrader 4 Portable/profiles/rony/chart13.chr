@@ -1,8 +1,8 @@
 <chart>
-id=134148464188254464
-symbol=EURJPY-OTCq
+id=134148465476239039
+symbol=USDARS-OTCq
 period=1
-leftpos=574
+leftpos=610
 offline=1
 digits=8
 scale=16
@@ -20,10 +20,10 @@ days=0
 descriptions=0
 shift_size=25
 fixed_pos=0
-window_left=26
-window_top=26
-window_right=878
-window_bottom=424
+window_left=879
+window_top=330
+window_right=1172
+window_bottom=440
 window_type=1
 background_color=5197615
 foreground_color=16777215
@@ -149,7 +149,7 @@ SendDailyReport=false
 </expert>
 shift_0=0
 draw_0=0
-color_0=0
+color_0=4294967295
 style_0=0
 weight_0=0
 period_flags=0

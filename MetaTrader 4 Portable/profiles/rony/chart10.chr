@@ -1,8 +1,8 @@
 <chart>
-id=134148461514082413
-symbol=CHFJPY-OTCq
+id=134148465212754041
+symbol=USDEGP-OTCq
 period=1
-leftpos=558
+leftpos=610
 offline=1
 digits=8
 scale=16
@@ -20,10 +20,10 @@ days=0
 descriptions=0
 shift_size=25
 fixed_pos=0
-window_left=104
-window_top=104
-window_right=1288
-window_bottom=502
+window_left=879
+window_top=0
+window_right=1172
+window_bottom=110
 window_type=1
 background_color=5197615
 foreground_color=16777215
@@ -149,7 +149,7 @@ SendDailyReport=false
 </expert>
 shift_0=0
 draw_0=0
-color_0=0
+color_0=4294967295
 style_0=0
 weight_0=0
 period_flags=0
