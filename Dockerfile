@@ -20,6 +20,7 @@ RUN dpkg --add-architecture i386 && \
     xvfb \
     x11vnc \
     openbox \
+    autocutsel \
     python3 \
     python3-numpy \
     net-tools \

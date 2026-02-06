@@ -23,6 +23,11 @@ done
 echo "Starting Openbox..."
 openbox-session &
 
+# Start Clipboard Sync
+echo "Starting Clipboard Sync..."
+autocutsel -fork &
+autocutsel -s CLIPBOARD -fork &
+
 # Setup VNC Password
 mkdir -p ~/.vnc
 x11vnc -storepasswd "$VNC_PASSWORD" ~/.vnc/passwd
