@@ -20,7 +20,7 @@ x11vnc -display :1 -rfbauth ~/.vnc/passwd -forever -shared -bg &
 
 # Start Websockify
 echo "Starting Websockify..."
-/opt/websockify/run 8080 localhost:5900 &
+/opt/websockify/run --web=/opt/noVNC 8080 localhost:5900 &
 
 # Start MT4
 echo "Starting MetaTrader 4..."

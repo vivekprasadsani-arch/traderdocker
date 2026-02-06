@@ -32,9 +32,12 @@ RUN dpkg --add-architecture i386 && \
     add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' && \
     apt-get update && \
     apt-get install -y --install-recommends winehq-stable && \
-    # Install websockify manually or via pip if needed, but apt version is usually enough or we clone it
-    # We will clone websockify for stability as apt pkg might be old
+    # Install websockify
     git clone https://github.com/novnc/websockify /opt/websockify && \
+    # Install noVNC
+    git clone https://github.com/novnc/noVNC /opt/noVNC && \
+    # Link vnc.html to index.html for default access
+    ln -s /opt/noVNC/vnc.html /opt/noVNC/index.html && \
     # Clean up
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
