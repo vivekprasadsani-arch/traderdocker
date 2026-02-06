@@ -26,7 +26,16 @@ RUN dpkg --add-architecture i386 && \
     ca-certificates \
     cabextract \
     gnupg2 \
-    git && \
+    git \
+    # X11 libraries for Wine (32-bit)
+    libx11-6:i386 \
+    libxcomposite1:i386 \
+    libxcursor1:i386 \
+    libxrandr2:i386 \
+    libxrender1:i386 \
+    libxinerama1:i386 \
+    libxi6:i386 \
+    libxtst6:i386 && \
     wget -nc https://dl.winehq.org/wine-builds/winehq.key && \
     apt-key add winehq.key && \
     add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' && \

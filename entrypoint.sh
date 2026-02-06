@@ -3,8 +3,21 @@ set -e
 
 # Start Xvfb
 echo "Starting Xvfb..."
+# Start Xvfb
+echo "Starting Xvfb..."
 Xvfb :1 -screen 0 1366x768x24 &
-sleep 2
+export PID_XVFB=$!
+
+# Wait for Xvfb to be ready
+echo "Waiting for Xvfb..."
+for i in {1..10}; do
+  if xdpyinfo -display :1 >/dev/null 2>&1; then
+    echo "Xvfb is ready."
+    break
+  fi
+  echo "Waiting for Xvfb... ($i/10)"
+  sleep 1
+done
 
 # Start Window Manager
 echo "Starting Openbox..."
